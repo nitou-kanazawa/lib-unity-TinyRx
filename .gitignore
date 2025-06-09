@@ -55,3 +55,4 @@ nunit-*.xml
 
 # JetBrains Rider / IntelliJ
 .idea/
+*.DotSettings.user
