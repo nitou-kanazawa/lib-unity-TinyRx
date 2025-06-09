@@ -1,10 +1,8 @@
 using System;
 
 namespace TinyRx {
-
 	[Serializable]
 	public readonly struct Empty : IEquatable<Empty> {
-
 		public bool Equals(Empty other) => true;
 		public override bool Equals(object obj) => obj is Empty;
 		public override int GetHashCode() => 0;
