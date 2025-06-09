@@ -1,10 +1,8 @@
 using System;
 using System.Collections.Generic;
-using System.ComponentModel;
 
 namespace TinyRx {
-
-	public class ObservableProperty<T> : IObservableProperty<T>, IReadOnlyObservebleProperty<T> {
+	public class ObservableProperty<T> : IObservableProperty<T>, IReadOnlyObservableProperty<T> {
 		private readonly HashSet<IObserver<T>> _observers = new();
 		private bool _isDisposed;
 
@@ -47,7 +45,6 @@ namespace TinyRx {
 		}
 
 
-
 		private void Notify(T value) {
 			// Assert.IsFalse(_didDispose);
 
@@ -73,9 +70,5 @@ namespace TinyRx {
 		protected virtual bool EqualsInternal(T a, T b) {
 			return EqualityComparer<T>.Default.Equals(a, b);
 		}
-
 	}
 }
-
-
-

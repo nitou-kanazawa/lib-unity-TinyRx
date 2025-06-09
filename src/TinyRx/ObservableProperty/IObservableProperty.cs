@@ -9,14 +9,14 @@ namespace TinyRx {
 		T Value { get; set; }
 
 		/// <summary>
-		/// Set a value and force nortify.
+		/// Set a value and force notify.
 		/// </summary>
 		/// <param name="value">new value</param>
 		void SetValueAndNotify(T value);
 	}
 
 
-	public interface IReadOnlyObservebleProperty<T> : IObservable<T>, IDisposable {
+	public interface IReadOnlyObservableProperty<T> : IObservable<T>, IDisposable {
 
 		/// <summary>
 		/// Current value.
