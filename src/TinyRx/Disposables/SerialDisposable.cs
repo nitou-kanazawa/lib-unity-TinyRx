@@ -2,7 +2,7 @@ using System;
 
 namespace TinyRx {
 
-	public sealed class SerialDisposable {
+	public sealed class SerialDisposable : IDisposable {
 		private bool _isDisposed;
 		private IDisposable _current;
 
@@ -22,7 +22,7 @@ namespace TinyRx {
 			}
 		}
 
-		public void Dipose() {
+		public void Dispose() {
 			if (_isDisposed)
 				return;
 
