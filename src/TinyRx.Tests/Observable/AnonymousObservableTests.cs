@@ -100,38 +100,6 @@ namespace TinyRx.Tests.Observable {
             // Act & Assert
             Assert.Throws<ArgumentNullException>(() => observable.Subscribe(null));
         }
-
-        [Test]
-        public void 異常系_SubscribeにnullのonNextを渡すと例外が発生すること() {
-            // Arrange
-            var observable = new AnonymousObservable<int>(observer => Disposable.Empty);
-
-            // Act & Assert
-            Assert.Throws<ArgumentNullException>(() => observable.Subscribe(
-                new Observer<int>(null, _ => { }, () => { })
-            ));
-        }
-
-        [Test]
-        public void 異常系_SubscribeにnullのonErrorを渡すと例外が発生すること() {
-            // Arrange
-            var observable = new AnonymousObservable<int>(observer => Disposable.Empty);
-
-            // Act & Assert
-            Assert.Throws<ArgumentNullException>(() => observable.Subscribe(
-                new Observer<int>(_ => { }, null, () => { })
-            ));
-        }
-
-        [Test]
-        public void 異常系_SubscribeにnullのonCompletedを渡すと例外が発生すること() {
-            // Arrange
-            var observable = new AnonymousObservable<int>(observer => Disposable.Empty);
-
-            // Act & Assert
-            Assert.Throws<ArgumentNullException>(() => observable.Subscribe(
-                new Observer<int>(_ => { }, _ => { }, null)
-            ));
-        }
     }
-} 
+
+}

@@ -13,17 +13,16 @@ namespace TinyRx {
 		}
 		
 		public IDisposable Subscribe(IObserver<T> observer) {
-			
-			if (!_isDisposed) 
+			if (_isDisposed)
 				throw new ObjectDisposedException(nameof(ReadOnlyObservableProperty<T>));
-			
+
 			return _source.Subscribe(observer);
 		}
 
 		public void Dispose() {
 			if (_isDisposed)
-				throw new ObjectDisposedException(nameof(ReadOnlyObservableProperty<T>));
-			
+				return;
+
 			_source.Dispose();
 			_isDisposed = true;
 		}

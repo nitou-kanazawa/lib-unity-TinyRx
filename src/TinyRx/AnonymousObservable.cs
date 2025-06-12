@@ -11,6 +11,9 @@ namespace TinyRx {
 		}
 
 		public IDisposable Subscribe(IObserver<T> observer) {
+			if (observer == null)
+				throw new ArgumentNullException(nameof(observer));
+
 			return _subscribe(observer);
 		}
 	}
