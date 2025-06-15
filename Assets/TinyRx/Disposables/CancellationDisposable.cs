@@ -3,7 +3,7 @@ using System.Threading;
 
 namespace TinyRx {
 
-	public sealed class CancellationDisposable : IDisposable {
+	internal sealed class CancellationDisposable : IDisposable {
 
 		private readonly CancellationTokenSource _cts;
 

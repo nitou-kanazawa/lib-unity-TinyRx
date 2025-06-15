@@ -1,12 +1,14 @@
 using System;
 using System.Collections.Generic;
+using UnityEngine;
+using UnityEngine.Assertions;
 
 namespace TinyRx {
 	public class ObservableProperty<T> : IObservableProperty<T>, IReadOnlyObservableProperty<T> {
 		private readonly HashSet<IObserver<T>> _observers = new();
 		private bool _isDisposed;
 
-		// [SerializeField]
+		[SerializeField]
 		private T _value;
 
 		public T Value {
@@ -28,7 +30,7 @@ namespace TinyRx {
 		}
 
 		public IDisposable Subscribe(IObserver<T> observer) {
-			// Assert.IsNotNull(observer)
+			Assert.IsNotNull(observer);
 
 			if (_isDisposed) {
 				observer.OnCompleted();
@@ -44,15 +46,14 @@ namespace TinyRx {
 			SetValue(value);
 		}
 
-
 		private void Notify(T value) {
-			// Assert.IsFalse(_didDispose);
+			Assert.IsFalse(_isDisposed);
 
 			foreach (var observer in _observers) observer.OnNext(value);
 		}
 
 		private void SetValue(T value, bool forceNotify = false) {
-			// Assert.IsFalse(_didDispose);
+			Assert.IsFalse(_isDisposed);
 
 			if (!forceNotify && EqualsInternal(Value, value))
 				return;
