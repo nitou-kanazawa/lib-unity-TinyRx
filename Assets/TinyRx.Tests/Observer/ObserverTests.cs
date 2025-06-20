@@ -1,6 +1,5 @@
 using System;
 using NUnit.Framework;
-using TinyRx;
 
 namespace TinyRx.Tests.Observer {
     public class ObserverTests {

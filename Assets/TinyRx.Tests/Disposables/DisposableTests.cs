@@ -1,6 +1,5 @@
-using System;
+using System.Threading;
 using NUnit.Framework;
-using TinyRx;
 
 namespace TinyRx.Tests.Disposables {
     [TestFixture]
@@ -137,7 +136,7 @@ namespace TinyRx.Tests.Disposables {
         [Test]
         public void CancellationDisposableはCancellationTokenSourceを管理できること() {
             // Arrange
-            var cts = new System.Threading.CancellationTokenSource();
+            var cts = new CancellationTokenSource();
             var disposable = new CancellationDisposable(cts);
 
             // Act

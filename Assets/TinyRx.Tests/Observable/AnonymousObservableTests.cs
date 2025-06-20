@@ -1,7 +1,6 @@
 using System;
-using NUnit.Framework;
 using System.Collections.Generic;
-using TinyRx;
+using NUnit.Framework;
 
 namespace TinyRx.Tests.Observable {
     [TestFixture]
