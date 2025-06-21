@@ -11,7 +11,8 @@
 					"exclude": [
             			"**/bin/**",
             			"**/obj/**", 
-            			"**/*.meta"
+            			"**/*.meta",
+						"**/ObservableProperty/**"
           			]
 				}
 			],
