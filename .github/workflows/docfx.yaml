@@ -40,24 +40,27 @@ jobs:
           dotnet tool install -g docfx
           docfx docfx/docfx.json
 
-      # GitHub Pages用のアーティファクトとしてアップロード
-      - name: Upload Pages artifact
-        uses: actions/upload-pages-artifact@v3
+      # 通常のアーティファクトとしてアップロード
+      - name: Upload artifacts
+        uses: actions/upload-artifact@v4
         with:
+          name: docfx_output
           path: docfx/_site
 
   deploy:
     needs: build
     runs-on: ubuntu-latest 
     timeout-minutes: 5
-    environment:
-      name: github-pages
-      url: ${{ steps.deployment.outputs.page_url }}
-    permissions:
-      pages: write
-      id-token: write
     steps:
-      # GitHub Pages用のデプロイアクション
-      - name: Deploy to GitHub Pages
-        uses: actions/deploy-pages@v4
-        id: deployment
+      - name: Download artifacts
+        uses: actions/download-artifact@v4
+        with:
+          name: docfx_output
+          path: ./docs_site
+          
+      - name: Deploy to gh-pages branch
+        uses: peaceiris/actions-gh-pages@v3
+        with:
+          github_token: ${{ secrets.GITHUB_TOKEN }}
+          publish_dir: ./docs_site
+          publish_branch: gh-pages
