@@ -77,3 +77,7 @@ crashlytics-build.properties
 
 # NuGetForUnity
 /Packages/nuget-packages/InstalledPackages*
+
+# DocFX
+docfx/_site/
+docfx/api/
