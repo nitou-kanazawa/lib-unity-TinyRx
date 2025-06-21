@@ -4,6 +4,11 @@ on:
   workflow_dispatch:
   push:
     branches: ["main"]
+    paths:
+      - 'docfx/**'           # DocFX設定変更時
+      - 'Assets/**/*.cs'     # C#スクリプト変更時
+      - '*.md'               # README等のドキュメント変更時
+      - 'docs/**'            # docsフォルダ変更時
 
 # GitHub Pagesにデプロイするための権限設定
 permissions:
