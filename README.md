@@ -1,4 +1,4 @@
-# lib-dotnet-TinyRx
+# TinyRx
 
 A minimal implementation of Rx for Unity and .NET applications.
 
