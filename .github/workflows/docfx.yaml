@@ -4,6 +4,22 @@ on:
   workflow_dispatch:
   push:
     branches: ["main"]
+    paths:
+      - 'docfx/**'           # DocFX設定変更時
+      - 'Assets/**/*.cs'     # C#スクリプト変更時
+      - '*.md'               # README等のドキュメント変更時
+      - 'docs/**'            # docsフォルダ変更時
+
+# GitHub Pagesにデプロイするための権限設定
+permissions:
+  contents: read
+  pages: write
+  id-token: write
+
+# 同時実行制御（GitHub Pagesデプロイの重複を防ぐ）
+concurrency:
+  group: "pages"
+  cancel-in-progress: false
 
 jobs:
   build:
@@ -16,7 +32,7 @@ jobs:
       - name: Setup .NET
         uses: actions/setup-dotnet@v4
         with:
-          dotnet-version: '6.0.x'
+          dotnet-version: '8.0.x'
 
       - name: Setup DocFX
         shell: bash
@@ -24,10 +40,10 @@ jobs:
           dotnet tool install -g docfx
           docfx docfx/docfx.json
 
-      - name: Upload artifacts
-        uses: actions/upload-artifact@v4
+      # GitHub Pages用のアーティファクトとしてアップロード
+      - name: Upload Pages artifact
+        uses: actions/upload-pages-artifact@v3
         with:
-          name: dotnet_docs
           path: docfx/_site
 
   deploy:
@@ -41,12 +57,7 @@ jobs:
       pages: write
       id-token: write
     steps:
-      - name: Download artifacts
-        uses: actions/download-artifact@v4
-        with:
-          name: dotnet_docs
-          path: _site
-
+      # GitHub Pages用のデプロイアクション
       - name: Deploy to GitHub Pages
         uses: actions/deploy-pages@v4
         id: deployment
