@@ -40,13 +40,27 @@ jobs:
           dotnet tool install -g docfx
           echo "DocFX installed successfully"
 
+      - name: Debug - Check file structure
+        shell: bash
+        run: |
+          echo "=== Repository structure ==="
+          find . -name "*.cs" | head -10
+          echo "=== DocFX folder structure ==="
+          ls -la docfx/
+          echo "=== Assets folder structure ==="
+          ls -la Assets/ || echo "Assets folder not found"
+          
       - name: Build DocFX documentation
         shell: bash
         run: |
           echo "Starting DocFX build..."
-          docfx docfx/docfx.json
+          cd docfx
+          docfx docfx.json --verbose
           echo "DocFX build completed"
-          ls -la docfx/_site/
+          echo "=== Generated api folder ==="
+          ls -la api/ || echo "api folder not created"
+          echo "=== Generated _site folder ==="
+          ls -la _site/ || echo "_site folder not created"
           
       # 通常のアーティファクトとしてアップロード
       - name: Upload artifacts
