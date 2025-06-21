@@ -1,0 +1,831 @@
+### YamlMime:XRefMap
+sorted: true
+references:
+- uid: TinyRx
+  name: TinyRx
+  href: api/TinyRx.html
+  commentId: N:TinyRx
+  fullName: TinyRx
+  nameWithType: TinyRx
+- uid: TinyRx.BoolObservableProperty
+  name: BoolObservableProperty
+  href: api/TinyRx.BoolObservableProperty.html
+  commentId: T:TinyRx.BoolObservableProperty
+  fullName: TinyRx.BoolObservableProperty
+  nameWithType: BoolObservableProperty
+- uid: TinyRx.BoolObservableProperty.#ctor
+  name: BoolObservableProperty()
+  href: api/TinyRx.BoolObservableProperty.html#TinyRx_BoolObservableProperty__ctor
+  commentId: M:TinyRx.BoolObservableProperty.#ctor
+  name.vb: New()
+  fullName: TinyRx.BoolObservableProperty.BoolObservableProperty()
+  fullName.vb: TinyRx.BoolObservableProperty.New()
+  nameWithType: BoolObservableProperty.BoolObservableProperty()
+  nameWithType.vb: BoolObservableProperty.New()
+- uid: TinyRx.BoolObservableProperty.#ctor(System.Boolean)
+  name: BoolObservableProperty(bool)
+  href: api/TinyRx.BoolObservableProperty.html#TinyRx_BoolObservableProperty__ctor_System_Boolean_
+  commentId: M:TinyRx.BoolObservableProperty.#ctor(System.Boolean)
+  name.vb: New(Boolean)
+  fullName: TinyRx.BoolObservableProperty.BoolObservableProperty(bool)
+  fullName.vb: TinyRx.BoolObservableProperty.New(Boolean)
+  nameWithType: BoolObservableProperty.BoolObservableProperty(bool)
+  nameWithType.vb: BoolObservableProperty.New(Boolean)
+- uid: TinyRx.BoolObservableProperty.#ctor*
+  name: BoolObservableProperty
+  href: api/TinyRx.BoolObservableProperty.html#TinyRx_BoolObservableProperty__ctor_
+  commentId: Overload:TinyRx.BoolObservableProperty.#ctor
+  isSpec: "True"
+  name.vb: New
+  fullName: TinyRx.BoolObservableProperty.BoolObservableProperty
+  fullName.vb: TinyRx.BoolObservableProperty.New
+  nameWithType: BoolObservableProperty.BoolObservableProperty
+  nameWithType.vb: BoolObservableProperty.New
+- uid: TinyRx.ByteObservableProperty
+  name: ByteObservableProperty
+  href: api/TinyRx.ByteObservableProperty.html
+  commentId: T:TinyRx.ByteObservableProperty
+  fullName: TinyRx.ByteObservableProperty
+  nameWithType: ByteObservableProperty
+- uid: TinyRx.ByteObservableProperty.#ctor
+  name: ByteObservableProperty()
+  href: api/TinyRx.ByteObservableProperty.html#TinyRx_ByteObservableProperty__ctor
+  commentId: M:TinyRx.ByteObservableProperty.#ctor
+  name.vb: New()
+  fullName: TinyRx.ByteObservableProperty.ByteObservableProperty()
+  fullName.vb: TinyRx.ByteObservableProperty.New()
+  nameWithType: ByteObservableProperty.ByteObservableProperty()
+  nameWithType.vb: ByteObservableProperty.New()
+- uid: TinyRx.ByteObservableProperty.#ctor(System.Byte)
+  name: ByteObservableProperty(byte)
+  href: api/TinyRx.ByteObservableProperty.html#TinyRx_ByteObservableProperty__ctor_System_Byte_
+  commentId: M:TinyRx.ByteObservableProperty.#ctor(System.Byte)
+  name.vb: New(Byte)
+  fullName: TinyRx.ByteObservableProperty.ByteObservableProperty(byte)
+  fullName.vb: TinyRx.ByteObservableProperty.New(Byte)
+  nameWithType: ByteObservableProperty.ByteObservableProperty(byte)
+  nameWithType.vb: ByteObservableProperty.New(Byte)
+- uid: TinyRx.ByteObservableProperty.#ctor*
+  name: ByteObservableProperty
+  href: api/TinyRx.ByteObservableProperty.html#TinyRx_ByteObservableProperty__ctor_
+  commentId: Overload:TinyRx.ByteObservableProperty.#ctor
+  isSpec: "True"
+  name.vb: New
+  fullName: TinyRx.ByteObservableProperty.ByteObservableProperty
+  fullName.vb: TinyRx.ByteObservableProperty.New
+  nameWithType: ByteObservableProperty.ByteObservableProperty
+  nameWithType.vb: ByteObservableProperty.New
+- uid: TinyRx.CharObservableProperty
+  name: CharObservableProperty
+  href: api/TinyRx.CharObservableProperty.html
+  commentId: T:TinyRx.CharObservableProperty
+  fullName: TinyRx.CharObservableProperty
+  nameWithType: CharObservableProperty
+- uid: TinyRx.CharObservableProperty.#ctor
+  name: CharObservableProperty()
+  href: api/TinyRx.CharObservableProperty.html#TinyRx_CharObservableProperty__ctor
+  commentId: M:TinyRx.CharObservableProperty.#ctor
+  name.vb: New()
+  fullName: TinyRx.CharObservableProperty.CharObservableProperty()
+  fullName.vb: TinyRx.CharObservableProperty.New()
+  nameWithType: CharObservableProperty.CharObservableProperty()
+  nameWithType.vb: CharObservableProperty.New()
+- uid: TinyRx.CharObservableProperty.#ctor(System.Char)
+  name: CharObservableProperty(char)
+  href: api/TinyRx.CharObservableProperty.html#TinyRx_CharObservableProperty__ctor_System_Char_
+  commentId: M:TinyRx.CharObservableProperty.#ctor(System.Char)
+  name.vb: New(Char)
+  fullName: TinyRx.CharObservableProperty.CharObservableProperty(char)
+  fullName.vb: TinyRx.CharObservableProperty.New(Char)
+  nameWithType: CharObservableProperty.CharObservableProperty(char)
+  nameWithType.vb: CharObservableProperty.New(Char)
+- uid: TinyRx.CharObservableProperty.#ctor*
+  name: CharObservableProperty
+  href: api/TinyRx.CharObservableProperty.html#TinyRx_CharObservableProperty__ctor_
+  commentId: Overload:TinyRx.CharObservableProperty.#ctor
+  isSpec: "True"
+  name.vb: New
+  fullName: TinyRx.CharObservableProperty.CharObservableProperty
+  fullName.vb: TinyRx.CharObservableProperty.New
+  nameWithType: CharObservableProperty.CharObservableProperty
+  nameWithType.vb: CharObservableProperty.New
+- uid: TinyRx.Disposable
+  name: Disposable
+  href: api/TinyRx.Disposable.html
+  commentId: T:TinyRx.Disposable
+  fullName: TinyRx.Disposable
+  nameWithType: Disposable
+- uid: TinyRx.Disposable.Create(System.Action)
+  name: Create(Action)
+  href: api/TinyRx.Disposable.html#TinyRx_Disposable_Create_System_Action_
+  commentId: M:TinyRx.Disposable.Create(System.Action)
+  fullName: TinyRx.Disposable.Create(System.Action)
+  nameWithType: Disposable.Create(Action)
+- uid: TinyRx.Disposable.Create*
+  name: Create
+  href: api/TinyRx.Disposable.html#TinyRx_Disposable_Create_
+  commentId: Overload:TinyRx.Disposable.Create
+  isSpec: "True"
+  fullName: TinyRx.Disposable.Create
+  nameWithType: Disposable.Create
+- uid: TinyRx.Disposable.CreateWithState*
+  name: CreateWithState
+  href: api/TinyRx.Disposable.html#TinyRx_Disposable_CreateWithState_
+  commentId: Overload:TinyRx.Disposable.CreateWithState
+  isSpec: "True"
+  fullName: TinyRx.Disposable.CreateWithState
+  nameWithType: Disposable.CreateWithState
+- uid: TinyRx.Disposable.CreateWithState``1(``0,System.Action{``0})
+  name: CreateWithState<TState>(TState, Action<TState>)
+  href: api/TinyRx.Disposable.html#TinyRx_Disposable_CreateWithState__1___0_System_Action___0__
+  commentId: M:TinyRx.Disposable.CreateWithState``1(``0,System.Action{``0})
+  name.vb: CreateWithState(Of TState)(TState, Action(Of TState))
+  fullName: TinyRx.Disposable.CreateWithState<TState>(TState, System.Action<TState>)
+  fullName.vb: TinyRx.Disposable.CreateWithState(Of TState)(TState, System.Action(Of TState))
+  nameWithType: Disposable.CreateWithState<TState>(TState, Action<TState>)
+  nameWithType.vb: Disposable.CreateWithState(Of TState)(TState, Action(Of TState))
+- uid: TinyRx.Disposable.Empty
+  name: Empty
+  href: api/TinyRx.Disposable.html#TinyRx_Disposable_Empty
+  commentId: F:TinyRx.Disposable.Empty
+  fullName: TinyRx.Disposable.Empty
+  nameWithType: Disposable.Empty
+- uid: TinyRx.DoubleObservableProperty
+  name: DoubleObservableProperty
+  href: api/TinyRx.DoubleObservableProperty.html
+  commentId: T:TinyRx.DoubleObservableProperty
+  fullName: TinyRx.DoubleObservableProperty
+  nameWithType: DoubleObservableProperty
+- uid: TinyRx.DoubleObservableProperty.#ctor
+  name: DoubleObservableProperty()
+  href: api/TinyRx.DoubleObservableProperty.html#TinyRx_DoubleObservableProperty__ctor
+  commentId: M:TinyRx.DoubleObservableProperty.#ctor
+  name.vb: New()
+  fullName: TinyRx.DoubleObservableProperty.DoubleObservableProperty()
+  fullName.vb: TinyRx.DoubleObservableProperty.New()
+  nameWithType: DoubleObservableProperty.DoubleObservableProperty()
+  nameWithType.vb: DoubleObservableProperty.New()
+- uid: TinyRx.DoubleObservableProperty.#ctor(System.Double)
+  name: DoubleObservableProperty(double)
+  href: api/TinyRx.DoubleObservableProperty.html#TinyRx_DoubleObservableProperty__ctor_System_Double_
+  commentId: M:TinyRx.DoubleObservableProperty.#ctor(System.Double)
+  name.vb: New(Double)
+  fullName: TinyRx.DoubleObservableProperty.DoubleObservableProperty(double)
+  fullName.vb: TinyRx.DoubleObservableProperty.New(Double)
+  nameWithType: DoubleObservableProperty.DoubleObservableProperty(double)
+  nameWithType.vb: DoubleObservableProperty.New(Double)
+- uid: TinyRx.DoubleObservableProperty.#ctor*
+  name: DoubleObservableProperty
+  href: api/TinyRx.DoubleObservableProperty.html#TinyRx_DoubleObservableProperty__ctor_
+  commentId: Overload:TinyRx.DoubleObservableProperty.#ctor
+  isSpec: "True"
+  name.vb: New
+  fullName: TinyRx.DoubleObservableProperty.DoubleObservableProperty
+  fullName.vb: TinyRx.DoubleObservableProperty.New
+  nameWithType: DoubleObservableProperty.DoubleObservableProperty
+  nameWithType.vb: DoubleObservableProperty.New
+- uid: TinyRx.FloatObservableProperty
+  name: FloatObservableProperty
+  href: api/TinyRx.FloatObservableProperty.html
+  commentId: T:TinyRx.FloatObservableProperty
+  fullName: TinyRx.FloatObservableProperty
+  nameWithType: FloatObservableProperty
+- uid: TinyRx.FloatObservableProperty.#ctor
+  name: FloatObservableProperty()
+  href: api/TinyRx.FloatObservableProperty.html#TinyRx_FloatObservableProperty__ctor
+  commentId: M:TinyRx.FloatObservableProperty.#ctor
+  name.vb: New()
+  fullName: TinyRx.FloatObservableProperty.FloatObservableProperty()
+  fullName.vb: TinyRx.FloatObservableProperty.New()
+  nameWithType: FloatObservableProperty.FloatObservableProperty()
+  nameWithType.vb: FloatObservableProperty.New()
+- uid: TinyRx.FloatObservableProperty.#ctor(System.Single)
+  name: FloatObservableProperty(float)
+  href: api/TinyRx.FloatObservableProperty.html#TinyRx_FloatObservableProperty__ctor_System_Single_
+  commentId: M:TinyRx.FloatObservableProperty.#ctor(System.Single)
+  name.vb: New(Single)
+  fullName: TinyRx.FloatObservableProperty.FloatObservableProperty(float)
+  fullName.vb: TinyRx.FloatObservableProperty.New(Single)
+  nameWithType: FloatObservableProperty.FloatObservableProperty(float)
+  nameWithType.vb: FloatObservableProperty.New(Single)
+- uid: TinyRx.FloatObservableProperty.#ctor*
+  name: FloatObservableProperty
+  href: api/TinyRx.FloatObservableProperty.html#TinyRx_FloatObservableProperty__ctor_
+  commentId: Overload:TinyRx.FloatObservableProperty.#ctor
+  isSpec: "True"
+  name.vb: New
+  fullName: TinyRx.FloatObservableProperty.FloatObservableProperty
+  fullName.vb: TinyRx.FloatObservableProperty.New
+  nameWithType: FloatObservableProperty.FloatObservableProperty
+  nameWithType.vb: FloatObservableProperty.New
+- uid: TinyRx.IObservableProperty`1
+  name: IObservableProperty<T>
+  href: api/TinyRx.IObservableProperty-1.html
+  commentId: T:TinyRx.IObservableProperty`1
+  name.vb: IObservableProperty(Of T)
+  fullName: TinyRx.IObservableProperty<T>
+  fullName.vb: TinyRx.IObservableProperty(Of T)
+  nameWithType: IObservableProperty<T>
+  nameWithType.vb: IObservableProperty(Of T)
+- uid: TinyRx.IObservableProperty`1.SetValueAndNotify(`0)
+  name: SetValueAndNotify(T)
+  href: api/TinyRx.IObservableProperty-1.html#TinyRx_IObservableProperty_1_SetValueAndNotify__0_
+  commentId: M:TinyRx.IObservableProperty`1.SetValueAndNotify(`0)
+  fullName: TinyRx.IObservableProperty<T>.SetValueAndNotify(T)
+  fullName.vb: TinyRx.IObservableProperty(Of T).SetValueAndNotify(T)
+  nameWithType: IObservableProperty<T>.SetValueAndNotify(T)
+  nameWithType.vb: IObservableProperty(Of T).SetValueAndNotify(T)
+- uid: TinyRx.IObservableProperty`1.SetValueAndNotify*
+  name: SetValueAndNotify
+  href: api/TinyRx.IObservableProperty-1.html#TinyRx_IObservableProperty_1_SetValueAndNotify_
+  commentId: Overload:TinyRx.IObservableProperty`1.SetValueAndNotify
+  isSpec: "True"
+  fullName: TinyRx.IObservableProperty<T>.SetValueAndNotify
+  fullName.vb: TinyRx.IObservableProperty(Of T).SetValueAndNotify
+  nameWithType: IObservableProperty<T>.SetValueAndNotify
+  nameWithType.vb: IObservableProperty(Of T).SetValueAndNotify
+- uid: TinyRx.IObservableProperty`1.Value
+  name: Value
+  href: api/TinyRx.IObservableProperty-1.html#TinyRx_IObservableProperty_1_Value
+  commentId: P:TinyRx.IObservableProperty`1.Value
+  fullName: TinyRx.IObservableProperty<T>.Value
+  fullName.vb: TinyRx.IObservableProperty(Of T).Value
+  nameWithType: IObservableProperty<T>.Value
+  nameWithType.vb: IObservableProperty(Of T).Value
+- uid: TinyRx.IObservableProperty`1.Value*
+  name: Value
+  href: api/TinyRx.IObservableProperty-1.html#TinyRx_IObservableProperty_1_Value_
+  commentId: Overload:TinyRx.IObservableProperty`1.Value
+  isSpec: "True"
+  fullName: TinyRx.IObservableProperty<T>.Value
+  fullName.vb: TinyRx.IObservableProperty(Of T).Value
+  nameWithType: IObservableProperty<T>.Value
+  nameWithType.vb: IObservableProperty(Of T).Value
+- uid: TinyRx.IReadOnlyObservableProperty`1
+  name: IReadOnlyObservableProperty<T>
+  href: api/TinyRx.IReadOnlyObservableProperty-1.html
+  commentId: T:TinyRx.IReadOnlyObservableProperty`1
+  name.vb: IReadOnlyObservableProperty(Of T)
+  fullName: TinyRx.IReadOnlyObservableProperty<T>
+  fullName.vb: TinyRx.IReadOnlyObservableProperty(Of T)
+  nameWithType: IReadOnlyObservableProperty<T>
+  nameWithType.vb: IReadOnlyObservableProperty(Of T)
+- uid: TinyRx.IReadOnlyObservableProperty`1.Value
+  name: Value
+  href: api/TinyRx.IReadOnlyObservableProperty-1.html#TinyRx_IReadOnlyObservableProperty_1_Value
+  commentId: P:TinyRx.IReadOnlyObservableProperty`1.Value
+  fullName: TinyRx.IReadOnlyObservableProperty<T>.Value
+  fullName.vb: TinyRx.IReadOnlyObservableProperty(Of T).Value
+  nameWithType: IReadOnlyObservableProperty<T>.Value
+  nameWithType.vb: IReadOnlyObservableProperty(Of T).Value
+- uid: TinyRx.IReadOnlyObservableProperty`1.Value*
+  name: Value
+  href: api/TinyRx.IReadOnlyObservableProperty-1.html#TinyRx_IReadOnlyObservableProperty_1_Value_
+  commentId: Overload:TinyRx.IReadOnlyObservableProperty`1.Value
+  isSpec: "True"
+  fullName: TinyRx.IReadOnlyObservableProperty<T>.Value
+  fullName.vb: TinyRx.IReadOnlyObservableProperty(Of T).Value
+  nameWithType: IReadOnlyObservableProperty<T>.Value
+  nameWithType.vb: IReadOnlyObservableProperty(Of T).Value
+- uid: TinyRx.IntObservableProperty
+  name: IntObservableProperty
+  href: api/TinyRx.IntObservableProperty.html
+  commentId: T:TinyRx.IntObservableProperty
+  fullName: TinyRx.IntObservableProperty
+  nameWithType: IntObservableProperty
+- uid: TinyRx.IntObservableProperty.#ctor
+  name: IntObservableProperty()
+  href: api/TinyRx.IntObservableProperty.html#TinyRx_IntObservableProperty__ctor
+  commentId: M:TinyRx.IntObservableProperty.#ctor
+  name.vb: New()
+  fullName: TinyRx.IntObservableProperty.IntObservableProperty()
+  fullName.vb: TinyRx.IntObservableProperty.New()
+  nameWithType: IntObservableProperty.IntObservableProperty()
+  nameWithType.vb: IntObservableProperty.New()
+- uid: TinyRx.IntObservableProperty.#ctor(System.Int32)
+  name: IntObservableProperty(int)
+  href: api/TinyRx.IntObservableProperty.html#TinyRx_IntObservableProperty__ctor_System_Int32_
+  commentId: M:TinyRx.IntObservableProperty.#ctor(System.Int32)
+  name.vb: New(Integer)
+  fullName: TinyRx.IntObservableProperty.IntObservableProperty(int)
+  fullName.vb: TinyRx.IntObservableProperty.New(Integer)
+  nameWithType: IntObservableProperty.IntObservableProperty(int)
+  nameWithType.vb: IntObservableProperty.New(Integer)
+- uid: TinyRx.IntObservableProperty.#ctor*
+  name: IntObservableProperty
+  href: api/TinyRx.IntObservableProperty.html#TinyRx_IntObservableProperty__ctor_
+  commentId: Overload:TinyRx.IntObservableProperty.#ctor
+  isSpec: "True"
+  name.vb: New
+  fullName: TinyRx.IntObservableProperty.IntObservableProperty
+  fullName.vb: TinyRx.IntObservableProperty.New
+  nameWithType: IntObservableProperty.IntObservableProperty
+  nameWithType.vb: IntObservableProperty.New
+- uid: TinyRx.LongObservableProperty
+  name: LongObservableProperty
+  href: api/TinyRx.LongObservableProperty.html
+  commentId: T:TinyRx.LongObservableProperty
+  fullName: TinyRx.LongObservableProperty
+  nameWithType: LongObservableProperty
+- uid: TinyRx.LongObservableProperty.#ctor
+  name: LongObservableProperty()
+  href: api/TinyRx.LongObservableProperty.html#TinyRx_LongObservableProperty__ctor
+  commentId: M:TinyRx.LongObservableProperty.#ctor
+  name.vb: New()
+  fullName: TinyRx.LongObservableProperty.LongObservableProperty()
+  fullName.vb: TinyRx.LongObservableProperty.New()
+  nameWithType: LongObservableProperty.LongObservableProperty()
+  nameWithType.vb: LongObservableProperty.New()
+- uid: TinyRx.LongObservableProperty.#ctor(System.Int64)
+  name: LongObservableProperty(long)
+  href: api/TinyRx.LongObservableProperty.html#TinyRx_LongObservableProperty__ctor_System_Int64_
+  commentId: M:TinyRx.LongObservableProperty.#ctor(System.Int64)
+  name.vb: New(Long)
+  fullName: TinyRx.LongObservableProperty.LongObservableProperty(long)
+  fullName.vb: TinyRx.LongObservableProperty.New(Long)
+  nameWithType: LongObservableProperty.LongObservableProperty(long)
+  nameWithType.vb: LongObservableProperty.New(Long)
+- uid: TinyRx.LongObservableProperty.#ctor*
+  name: LongObservableProperty
+  href: api/TinyRx.LongObservableProperty.html#TinyRx_LongObservableProperty__ctor_
+  commentId: Overload:TinyRx.LongObservableProperty.#ctor
+  isSpec: "True"
+  name.vb: New
+  fullName: TinyRx.LongObservableProperty.LongObservableProperty
+  fullName.vb: TinyRx.LongObservableProperty.New
+  nameWithType: LongObservableProperty.LongObservableProperty
+  nameWithType.vb: LongObservableProperty.New
+- uid: TinyRx.ObservablePropertyExtensions
+  name: ObservablePropertyExtensions
+  href: api/TinyRx.ObservablePropertyExtensions.html
+  commentId: T:TinyRx.ObservablePropertyExtensions
+  fullName: TinyRx.ObservablePropertyExtensions
+  nameWithType: ObservablePropertyExtensions
+- uid: TinyRx.ObservablePropertyExtensions.ToReadOnly*
+  name: ToReadOnly
+  href: api/TinyRx.ObservablePropertyExtensions.html#TinyRx_ObservablePropertyExtensions_ToReadOnly_
+  commentId: Overload:TinyRx.ObservablePropertyExtensions.ToReadOnly
+  isSpec: "True"
+  fullName: TinyRx.ObservablePropertyExtensions.ToReadOnly
+  nameWithType: ObservablePropertyExtensions.ToReadOnly
+- uid: TinyRx.ObservablePropertyExtensions.ToReadOnly``1(TinyRx.IObservableProperty{``0})
+  name: ToReadOnly<T>(IObservableProperty<T>)
+  href: api/TinyRx.ObservablePropertyExtensions.html#TinyRx_ObservablePropertyExtensions_ToReadOnly__1_TinyRx_IObservableProperty___0__
+  commentId: M:TinyRx.ObservablePropertyExtensions.ToReadOnly``1(TinyRx.IObservableProperty{``0})
+  name.vb: ToReadOnly(Of T)(IObservableProperty(Of T))
+  fullName: TinyRx.ObservablePropertyExtensions.ToReadOnly<T>(TinyRx.IObservableProperty<T>)
+  fullName.vb: TinyRx.ObservablePropertyExtensions.ToReadOnly(Of T)(TinyRx.IObservableProperty(Of T))
+  nameWithType: ObservablePropertyExtensions.ToReadOnly<T>(IObservableProperty<T>)
+  nameWithType.vb: ObservablePropertyExtensions.ToReadOnly(Of T)(IObservableProperty(Of T))
+- uid: TinyRx.ObservableProperty`1
+  name: ObservableProperty<T>
+  href: api/TinyRx.ObservableProperty-1.html
+  commentId: T:TinyRx.ObservableProperty`1
+  name.vb: ObservableProperty(Of T)
+  fullName: TinyRx.ObservableProperty<T>
+  fullName.vb: TinyRx.ObservableProperty(Of T)
+  nameWithType: ObservableProperty<T>
+  nameWithType.vb: ObservableProperty(Of T)
+- uid: TinyRx.ObservableProperty`1.#ctor
+  name: ObservableProperty()
+  href: api/TinyRx.ObservableProperty-1.html#TinyRx_ObservableProperty_1__ctor
+  commentId: M:TinyRx.ObservableProperty`1.#ctor
+  name.vb: New()
+  fullName: TinyRx.ObservableProperty<T>.ObservableProperty()
+  fullName.vb: TinyRx.ObservableProperty(Of T).New()
+  nameWithType: ObservableProperty<T>.ObservableProperty()
+  nameWithType.vb: ObservableProperty(Of T).New()
+- uid: TinyRx.ObservableProperty`1.#ctor(`0)
+  name: ObservableProperty(T)
+  href: api/TinyRx.ObservableProperty-1.html#TinyRx_ObservableProperty_1__ctor__0_
+  commentId: M:TinyRx.ObservableProperty`1.#ctor(`0)
+  name.vb: New(T)
+  fullName: TinyRx.ObservableProperty<T>.ObservableProperty(T)
+  fullName.vb: TinyRx.ObservableProperty(Of T).New(T)
+  nameWithType: ObservableProperty<T>.ObservableProperty(T)
+  nameWithType.vb: ObservableProperty(Of T).New(T)
+- uid: TinyRx.ObservableProperty`1.#ctor*
+  name: ObservableProperty
+  href: api/TinyRx.ObservableProperty-1.html#TinyRx_ObservableProperty_1__ctor_
+  commentId: Overload:TinyRx.ObservableProperty`1.#ctor
+  isSpec: "True"
+  name.vb: New
+  fullName: TinyRx.ObservableProperty<T>.ObservableProperty
+  fullName.vb: TinyRx.ObservableProperty(Of T).New
+  nameWithType: ObservableProperty<T>.ObservableProperty
+  nameWithType.vb: ObservableProperty(Of T).New
+- uid: TinyRx.ObservableProperty`1.Dispose
+  name: Dispose()
+  href: api/TinyRx.ObservableProperty-1.html#TinyRx_ObservableProperty_1_Dispose
+  commentId: M:TinyRx.ObservableProperty`1.Dispose
+  fullName: TinyRx.ObservableProperty<T>.Dispose()
+  fullName.vb: TinyRx.ObservableProperty(Of T).Dispose()
+  nameWithType: ObservableProperty<T>.Dispose()
+  nameWithType.vb: ObservableProperty(Of T).Dispose()
+- uid: TinyRx.ObservableProperty`1.Dispose*
+  name: Dispose
+  href: api/TinyRx.ObservableProperty-1.html#TinyRx_ObservableProperty_1_Dispose_
+  commentId: Overload:TinyRx.ObservableProperty`1.Dispose
+  isSpec: "True"
+  fullName: TinyRx.ObservableProperty<T>.Dispose
+  fullName.vb: TinyRx.ObservableProperty(Of T).Dispose
+  nameWithType: ObservableProperty<T>.Dispose
+  nameWithType.vb: ObservableProperty(Of T).Dispose
+- uid: TinyRx.ObservableProperty`1.EqualsInternal(`0,`0)
+  name: EqualsInternal(T, T)
+  href: api/TinyRx.ObservableProperty-1.html#TinyRx_ObservableProperty_1_EqualsInternal__0__0_
+  commentId: M:TinyRx.ObservableProperty`1.EqualsInternal(`0,`0)
+  fullName: TinyRx.ObservableProperty<T>.EqualsInternal(T, T)
+  fullName.vb: TinyRx.ObservableProperty(Of T).EqualsInternal(T, T)
+  nameWithType: ObservableProperty<T>.EqualsInternal(T, T)
+  nameWithType.vb: ObservableProperty(Of T).EqualsInternal(T, T)
+- uid: TinyRx.ObservableProperty`1.EqualsInternal*
+  name: EqualsInternal
+  href: api/TinyRx.ObservableProperty-1.html#TinyRx_ObservableProperty_1_EqualsInternal_
+  commentId: Overload:TinyRx.ObservableProperty`1.EqualsInternal
+  isSpec: "True"
+  fullName: TinyRx.ObservableProperty<T>.EqualsInternal
+  fullName.vb: TinyRx.ObservableProperty(Of T).EqualsInternal
+  nameWithType: ObservableProperty<T>.EqualsInternal
+  nameWithType.vb: ObservableProperty(Of T).EqualsInternal
+- uid: TinyRx.ObservableProperty`1.SetValueAndNotify(`0)
+  name: SetValueAndNotify(T)
+  href: api/TinyRx.ObservableProperty-1.html#TinyRx_ObservableProperty_1_SetValueAndNotify__0_
+  commentId: M:TinyRx.ObservableProperty`1.SetValueAndNotify(`0)
+  fullName: TinyRx.ObservableProperty<T>.SetValueAndNotify(T)
+  fullName.vb: TinyRx.ObservableProperty(Of T).SetValueAndNotify(T)
+  nameWithType: ObservableProperty<T>.SetValueAndNotify(T)
+  nameWithType.vb: ObservableProperty(Of T).SetValueAndNotify(T)
+- uid: TinyRx.ObservableProperty`1.SetValueAndNotify*
+  name: SetValueAndNotify
+  href: api/TinyRx.ObservableProperty-1.html#TinyRx_ObservableProperty_1_SetValueAndNotify_
+  commentId: Overload:TinyRx.ObservableProperty`1.SetValueAndNotify
+  isSpec: "True"
+  fullName: TinyRx.ObservableProperty<T>.SetValueAndNotify
+  fullName.vb: TinyRx.ObservableProperty(Of T).SetValueAndNotify
+  nameWithType: ObservableProperty<T>.SetValueAndNotify
+  nameWithType.vb: ObservableProperty(Of T).SetValueAndNotify
+- uid: TinyRx.ObservableProperty`1.Subscribe(System.IObserver{`0})
+  name: Subscribe(IObserver<T>)
+  href: api/TinyRx.ObservableProperty-1.html#TinyRx_ObservableProperty_1_Subscribe_System_IObserver__0__
+  commentId: M:TinyRx.ObservableProperty`1.Subscribe(System.IObserver{`0})
+  name.vb: Subscribe(IObserver(Of T))
+  fullName: TinyRx.ObservableProperty<T>.Subscribe(System.IObserver<T>)
+  fullName.vb: TinyRx.ObservableProperty(Of T).Subscribe(System.IObserver(Of T))
+  nameWithType: ObservableProperty<T>.Subscribe(IObserver<T>)
+  nameWithType.vb: ObservableProperty(Of T).Subscribe(IObserver(Of T))
+- uid: TinyRx.ObservableProperty`1.Subscribe*
+  name: Subscribe
+  href: api/TinyRx.ObservableProperty-1.html#TinyRx_ObservableProperty_1_Subscribe_
+  commentId: Overload:TinyRx.ObservableProperty`1.Subscribe
+  isSpec: "True"
+  fullName: TinyRx.ObservableProperty<T>.Subscribe
+  fullName.vb: TinyRx.ObservableProperty(Of T).Subscribe
+  nameWithType: ObservableProperty<T>.Subscribe
+  nameWithType.vb: ObservableProperty(Of T).Subscribe
+- uid: TinyRx.ObservableProperty`1.Value
+  name: Value
+  href: api/TinyRx.ObservableProperty-1.html#TinyRx_ObservableProperty_1_Value
+  commentId: P:TinyRx.ObservableProperty`1.Value
+  fullName: TinyRx.ObservableProperty<T>.Value
+  fullName.vb: TinyRx.ObservableProperty(Of T).Value
+  nameWithType: ObservableProperty<T>.Value
+  nameWithType.vb: ObservableProperty(Of T).Value
+- uid: TinyRx.ObservableProperty`1.Value*
+  name: Value
+  href: api/TinyRx.ObservableProperty-1.html#TinyRx_ObservableProperty_1_Value_
+  commentId: Overload:TinyRx.ObservableProperty`1.Value
+  isSpec: "True"
+  fullName: TinyRx.ObservableProperty<T>.Value
+  fullName.vb: TinyRx.ObservableProperty(Of T).Value
+  nameWithType: ObservableProperty<T>.Value
+  nameWithType.vb: ObservableProperty(Of T).Value
+- uid: TinyRx.ReadOnlyObservableProperty`1
+  name: ReadOnlyObservableProperty<T>
+  href: api/TinyRx.ReadOnlyObservableProperty-1.html
+  commentId: T:TinyRx.ReadOnlyObservableProperty`1
+  name.vb: ReadOnlyObservableProperty(Of T)
+  fullName: TinyRx.ReadOnlyObservableProperty<T>
+  fullName.vb: TinyRx.ReadOnlyObservableProperty(Of T)
+  nameWithType: ReadOnlyObservableProperty<T>
+  nameWithType.vb: ReadOnlyObservableProperty(Of T)
+- uid: TinyRx.ReadOnlyObservableProperty`1.#ctor(TinyRx.IObservableProperty{`0})
+  name: ReadOnlyObservableProperty(IObservableProperty<T>)
+  href: api/TinyRx.ReadOnlyObservableProperty-1.html#TinyRx_ReadOnlyObservableProperty_1__ctor_TinyRx_IObservableProperty__0__
+  commentId: M:TinyRx.ReadOnlyObservableProperty`1.#ctor(TinyRx.IObservableProperty{`0})
+  name.vb: New(IObservableProperty(Of T))
+  fullName: TinyRx.ReadOnlyObservableProperty<T>.ReadOnlyObservableProperty(TinyRx.IObservableProperty<T>)
+  fullName.vb: TinyRx.ReadOnlyObservableProperty(Of T).New(TinyRx.IObservableProperty(Of T))
+  nameWithType: ReadOnlyObservableProperty<T>.ReadOnlyObservableProperty(IObservableProperty<T>)
+  nameWithType.vb: ReadOnlyObservableProperty(Of T).New(IObservableProperty(Of T))
+- uid: TinyRx.ReadOnlyObservableProperty`1.#ctor*
+  name: ReadOnlyObservableProperty
+  href: api/TinyRx.ReadOnlyObservableProperty-1.html#TinyRx_ReadOnlyObservableProperty_1__ctor_
+  commentId: Overload:TinyRx.ReadOnlyObservableProperty`1.#ctor
+  isSpec: "True"
+  name.vb: New
+  fullName: TinyRx.ReadOnlyObservableProperty<T>.ReadOnlyObservableProperty
+  fullName.vb: TinyRx.ReadOnlyObservableProperty(Of T).New
+  nameWithType: ReadOnlyObservableProperty<T>.ReadOnlyObservableProperty
+  nameWithType.vb: ReadOnlyObservableProperty(Of T).New
+- uid: TinyRx.ReadOnlyObservableProperty`1.Dispose
+  name: Dispose()
+  href: api/TinyRx.ReadOnlyObservableProperty-1.html#TinyRx_ReadOnlyObservableProperty_1_Dispose
+  commentId: M:TinyRx.ReadOnlyObservableProperty`1.Dispose
+  fullName: TinyRx.ReadOnlyObservableProperty<T>.Dispose()
+  fullName.vb: TinyRx.ReadOnlyObservableProperty(Of T).Dispose()
+  nameWithType: ReadOnlyObservableProperty<T>.Dispose()
+  nameWithType.vb: ReadOnlyObservableProperty(Of T).Dispose()
+- uid: TinyRx.ReadOnlyObservableProperty`1.Dispose*
+  name: Dispose
+  href: api/TinyRx.ReadOnlyObservableProperty-1.html#TinyRx_ReadOnlyObservableProperty_1_Dispose_
+  commentId: Overload:TinyRx.ReadOnlyObservableProperty`1.Dispose
+  isSpec: "True"
+  fullName: TinyRx.ReadOnlyObservableProperty<T>.Dispose
+  fullName.vb: TinyRx.ReadOnlyObservableProperty(Of T).Dispose
+  nameWithType: ReadOnlyObservableProperty<T>.Dispose
+  nameWithType.vb: ReadOnlyObservableProperty(Of T).Dispose
+- uid: TinyRx.ReadOnlyObservableProperty`1.Subscribe(System.IObserver{`0})
+  name: Subscribe(IObserver<T>)
+  href: api/TinyRx.ReadOnlyObservableProperty-1.html#TinyRx_ReadOnlyObservableProperty_1_Subscribe_System_IObserver__0__
+  commentId: M:TinyRx.ReadOnlyObservableProperty`1.Subscribe(System.IObserver{`0})
+  name.vb: Subscribe(IObserver(Of T))
+  fullName: TinyRx.ReadOnlyObservableProperty<T>.Subscribe(System.IObserver<T>)
+  fullName.vb: TinyRx.ReadOnlyObservableProperty(Of T).Subscribe(System.IObserver(Of T))
+  nameWithType: ReadOnlyObservableProperty<T>.Subscribe(IObserver<T>)
+  nameWithType.vb: ReadOnlyObservableProperty(Of T).Subscribe(IObserver(Of T))
+- uid: TinyRx.ReadOnlyObservableProperty`1.Subscribe*
+  name: Subscribe
+  href: api/TinyRx.ReadOnlyObservableProperty-1.html#TinyRx_ReadOnlyObservableProperty_1_Subscribe_
+  commentId: Overload:TinyRx.ReadOnlyObservableProperty`1.Subscribe
+  isSpec: "True"
+  fullName: TinyRx.ReadOnlyObservableProperty<T>.Subscribe
+  fullName.vb: TinyRx.ReadOnlyObservableProperty(Of T).Subscribe
+  nameWithType: ReadOnlyObservableProperty<T>.Subscribe
+  nameWithType.vb: ReadOnlyObservableProperty(Of T).Subscribe
+- uid: TinyRx.ReadOnlyObservableProperty`1.Value
+  name: Value
+  href: api/TinyRx.ReadOnlyObservableProperty-1.html#TinyRx_ReadOnlyObservableProperty_1_Value
+  commentId: P:TinyRx.ReadOnlyObservableProperty`1.Value
+  fullName: TinyRx.ReadOnlyObservableProperty<T>.Value
+  fullName.vb: TinyRx.ReadOnlyObservableProperty(Of T).Value
+  nameWithType: ReadOnlyObservableProperty<T>.Value
+  nameWithType.vb: ReadOnlyObservableProperty(Of T).Value
+- uid: TinyRx.ReadOnlyObservableProperty`1.Value*
+  name: Value
+  href: api/TinyRx.ReadOnlyObservableProperty-1.html#TinyRx_ReadOnlyObservableProperty_1_Value_
+  commentId: Overload:TinyRx.ReadOnlyObservableProperty`1.Value
+  isSpec: "True"
+  fullName: TinyRx.ReadOnlyObservableProperty<T>.Value
+  fullName.vb: TinyRx.ReadOnlyObservableProperty(Of T).Value
+  nameWithType: ReadOnlyObservableProperty<T>.Value
+  nameWithType.vb: ReadOnlyObservableProperty(Of T).Value
+- uid: TinyRx.SByteObservableProperty
+  name: SByteObservableProperty
+  href: api/TinyRx.SByteObservableProperty.html
+  commentId: T:TinyRx.SByteObservableProperty
+  fullName: TinyRx.SByteObservableProperty
+  nameWithType: SByteObservableProperty
+- uid: TinyRx.SByteObservableProperty.#ctor
+  name: SByteObservableProperty()
+  href: api/TinyRx.SByteObservableProperty.html#TinyRx_SByteObservableProperty__ctor
+  commentId: M:TinyRx.SByteObservableProperty.#ctor
+  name.vb: New()
+  fullName: TinyRx.SByteObservableProperty.SByteObservableProperty()
+  fullName.vb: TinyRx.SByteObservableProperty.New()
+  nameWithType: SByteObservableProperty.SByteObservableProperty()
+  nameWithType.vb: SByteObservableProperty.New()
+- uid: TinyRx.SByteObservableProperty.#ctor(System.SByte)
+  name: SByteObservableProperty(sbyte)
+  href: api/TinyRx.SByteObservableProperty.html#TinyRx_SByteObservableProperty__ctor_System_SByte_
+  commentId: M:TinyRx.SByteObservableProperty.#ctor(System.SByte)
+  name.vb: New(SByte)
+  fullName: TinyRx.SByteObservableProperty.SByteObservableProperty(sbyte)
+  fullName.vb: TinyRx.SByteObservableProperty.New(SByte)
+  nameWithType: SByteObservableProperty.SByteObservableProperty(sbyte)
+  nameWithType.vb: SByteObservableProperty.New(SByte)
+- uid: TinyRx.SByteObservableProperty.#ctor*
+  name: SByteObservableProperty
+  href: api/TinyRx.SByteObservableProperty.html#TinyRx_SByteObservableProperty__ctor_
+  commentId: Overload:TinyRx.SByteObservableProperty.#ctor
+  isSpec: "True"
+  name.vb: New
+  fullName: TinyRx.SByteObservableProperty.SByteObservableProperty
+  fullName.vb: TinyRx.SByteObservableProperty.New
+  nameWithType: SByteObservableProperty.SByteObservableProperty
+  nameWithType.vb: SByteObservableProperty.New
+- uid: TinyRx.SerialDisposable
+  name: SerialDisposable
+  href: api/TinyRx.SerialDisposable.html
+  commentId: T:TinyRx.SerialDisposable
+  fullName: TinyRx.SerialDisposable
+  nameWithType: SerialDisposable
+- uid: TinyRx.SerialDisposable.Disposable
+  name: Disposable
+  href: api/TinyRx.SerialDisposable.html#TinyRx_SerialDisposable_Disposable
+  commentId: P:TinyRx.SerialDisposable.Disposable
+  fullName: TinyRx.SerialDisposable.Disposable
+  nameWithType: SerialDisposable.Disposable
+- uid: TinyRx.SerialDisposable.Disposable*
+  name: Disposable
+  href: api/TinyRx.SerialDisposable.html#TinyRx_SerialDisposable_Disposable_
+  commentId: Overload:TinyRx.SerialDisposable.Disposable
+  isSpec: "True"
+  fullName: TinyRx.SerialDisposable.Disposable
+  nameWithType: SerialDisposable.Disposable
+- uid: TinyRx.SerialDisposable.Dispose
+  name: Dispose()
+  href: api/TinyRx.SerialDisposable.html#TinyRx_SerialDisposable_Dispose
+  commentId: M:TinyRx.SerialDisposable.Dispose
+  fullName: TinyRx.SerialDisposable.Dispose()
+  nameWithType: SerialDisposable.Dispose()
+- uid: TinyRx.SerialDisposable.Dispose*
+  name: Dispose
+  href: api/TinyRx.SerialDisposable.html#TinyRx_SerialDisposable_Dispose_
+  commentId: Overload:TinyRx.SerialDisposable.Dispose
+  isSpec: "True"
+  fullName: TinyRx.SerialDisposable.Dispose
+  nameWithType: SerialDisposable.Dispose
+- uid: TinyRx.SerialDisposable.IsDisposed
+  name: IsDisposed
+  href: api/TinyRx.SerialDisposable.html#TinyRx_SerialDisposable_IsDisposed
+  commentId: P:TinyRx.SerialDisposable.IsDisposed
+  fullName: TinyRx.SerialDisposable.IsDisposed
+  nameWithType: SerialDisposable.IsDisposed
+- uid: TinyRx.SerialDisposable.IsDisposed*
+  name: IsDisposed
+  href: api/TinyRx.SerialDisposable.html#TinyRx_SerialDisposable_IsDisposed_
+  commentId: Overload:TinyRx.SerialDisposable.IsDisposed
+  isSpec: "True"
+  fullName: TinyRx.SerialDisposable.IsDisposed
+  nameWithType: SerialDisposable.IsDisposed
+- uid: TinyRx.ShortObservableProperty
+  name: ShortObservableProperty
+  href: api/TinyRx.ShortObservableProperty.html
+  commentId: T:TinyRx.ShortObservableProperty
+  fullName: TinyRx.ShortObservableProperty
+  nameWithType: ShortObservableProperty
+- uid: TinyRx.ShortObservableProperty.#ctor
+  name: ShortObservableProperty()
+  href: api/TinyRx.ShortObservableProperty.html#TinyRx_ShortObservableProperty__ctor
+  commentId: M:TinyRx.ShortObservableProperty.#ctor
+  name.vb: New()
+  fullName: TinyRx.ShortObservableProperty.ShortObservableProperty()
+  fullName.vb: TinyRx.ShortObservableProperty.New()
+  nameWithType: ShortObservableProperty.ShortObservableProperty()
+  nameWithType.vb: ShortObservableProperty.New()
+- uid: TinyRx.ShortObservableProperty.#ctor(System.Int16)
+  name: ShortObservableProperty(short)
+  href: api/TinyRx.ShortObservableProperty.html#TinyRx_ShortObservableProperty__ctor_System_Int16_
+  commentId: M:TinyRx.ShortObservableProperty.#ctor(System.Int16)
+  name.vb: New(Short)
+  fullName: TinyRx.ShortObservableProperty.ShortObservableProperty(short)
+  fullName.vb: TinyRx.ShortObservableProperty.New(Short)
+  nameWithType: ShortObservableProperty.ShortObservableProperty(short)
+  nameWithType.vb: ShortObservableProperty.New(Short)
+- uid: TinyRx.ShortObservableProperty.#ctor*
+  name: ShortObservableProperty
+  href: api/TinyRx.ShortObservableProperty.html#TinyRx_ShortObservableProperty__ctor_
+  commentId: Overload:TinyRx.ShortObservableProperty.#ctor
+  isSpec: "True"
+  name.vb: New
+  fullName: TinyRx.ShortObservableProperty.ShortObservableProperty
+  fullName.vb: TinyRx.ShortObservableProperty.New
+  nameWithType: ShortObservableProperty.ShortObservableProperty
+  nameWithType.vb: ShortObservableProperty.New
+- uid: TinyRx.StringObservableProperty
+  name: StringObservableProperty
+  href: api/TinyRx.StringObservableProperty.html
+  commentId: T:TinyRx.StringObservableProperty
+  fullName: TinyRx.StringObservableProperty
+  nameWithType: StringObservableProperty
+- uid: TinyRx.StringObservableProperty.#ctor
+  name: StringObservableProperty()
+  href: api/TinyRx.StringObservableProperty.html#TinyRx_StringObservableProperty__ctor
+  commentId: M:TinyRx.StringObservableProperty.#ctor
+  name.vb: New()
+  fullName: TinyRx.StringObservableProperty.StringObservableProperty()
+  fullName.vb: TinyRx.StringObservableProperty.New()
+  nameWithType: StringObservableProperty.StringObservableProperty()
+  nameWithType.vb: StringObservableProperty.New()
+- uid: TinyRx.StringObservableProperty.#ctor(System.String)
+  name: StringObservableProperty(string)
+  href: api/TinyRx.StringObservableProperty.html#TinyRx_StringObservableProperty__ctor_System_String_
+  commentId: M:TinyRx.StringObservableProperty.#ctor(System.String)
+  name.vb: New(String)
+  fullName: TinyRx.StringObservableProperty.StringObservableProperty(string)
+  fullName.vb: TinyRx.StringObservableProperty.New(String)
+  nameWithType: StringObservableProperty.StringObservableProperty(string)
+  nameWithType.vb: StringObservableProperty.New(String)
+- uid: TinyRx.StringObservableProperty.#ctor*
+  name: StringObservableProperty
+  href: api/TinyRx.StringObservableProperty.html#TinyRx_StringObservableProperty__ctor_
+  commentId: Overload:TinyRx.StringObservableProperty.#ctor
+  isSpec: "True"
+  name.vb: New
+  fullName: TinyRx.StringObservableProperty.StringObservableProperty
+  fullName.vb: TinyRx.StringObservableProperty.New
+  nameWithType: StringObservableProperty.StringObservableProperty
+  nameWithType.vb: StringObservableProperty.New
+- uid: TinyRx.UIntObservableProperty
+  name: UIntObservableProperty
+  href: api/TinyRx.UIntObservableProperty.html
+  commentId: T:TinyRx.UIntObservableProperty
+  fullName: TinyRx.UIntObservableProperty
+  nameWithType: UIntObservableProperty
+- uid: TinyRx.UIntObservableProperty.#ctor
+  name: UIntObservableProperty()
+  href: api/TinyRx.UIntObservableProperty.html#TinyRx_UIntObservableProperty__ctor
+  commentId: M:TinyRx.UIntObservableProperty.#ctor
+  name.vb: New()
+  fullName: TinyRx.UIntObservableProperty.UIntObservableProperty()
+  fullName.vb: TinyRx.UIntObservableProperty.New()
+  nameWithType: UIntObservableProperty.UIntObservableProperty()
+  nameWithType.vb: UIntObservableProperty.New()
+- uid: TinyRx.UIntObservableProperty.#ctor(System.UInt32)
+  name: UIntObservableProperty(uint)
+  href: api/TinyRx.UIntObservableProperty.html#TinyRx_UIntObservableProperty__ctor_System_UInt32_
+  commentId: M:TinyRx.UIntObservableProperty.#ctor(System.UInt32)
+  name.vb: New(UInteger)
+  fullName: TinyRx.UIntObservableProperty.UIntObservableProperty(uint)
+  fullName.vb: TinyRx.UIntObservableProperty.New(UInteger)
+  nameWithType: UIntObservableProperty.UIntObservableProperty(uint)
+  nameWithType.vb: UIntObservableProperty.New(UInteger)
+- uid: TinyRx.UIntObservableProperty.#ctor*
+  name: UIntObservableProperty
+  href: api/TinyRx.UIntObservableProperty.html#TinyRx_UIntObservableProperty__ctor_
+  commentId: Overload:TinyRx.UIntObservableProperty.#ctor
+  isSpec: "True"
+  name.vb: New
+  fullName: TinyRx.UIntObservableProperty.UIntObservableProperty
+  fullName.vb: TinyRx.UIntObservableProperty.New
+  nameWithType: UIntObservableProperty.UIntObservableProperty
+  nameWithType.vb: UIntObservableProperty.New
+- uid: TinyRx.ULongObservableProperty
+  name: ULongObservableProperty
+  href: api/TinyRx.ULongObservableProperty.html
+  commentId: T:TinyRx.ULongObservableProperty
+  fullName: TinyRx.ULongObservableProperty
+  nameWithType: ULongObservableProperty
+- uid: TinyRx.ULongObservableProperty.#ctor
+  name: ULongObservableProperty()
+  href: api/TinyRx.ULongObservableProperty.html#TinyRx_ULongObservableProperty__ctor
+  commentId: M:TinyRx.ULongObservableProperty.#ctor
+  name.vb: New()
+  fullName: TinyRx.ULongObservableProperty.ULongObservableProperty()
+  fullName.vb: TinyRx.ULongObservableProperty.New()
+  nameWithType: ULongObservableProperty.ULongObservableProperty()
+  nameWithType.vb: ULongObservableProperty.New()
+- uid: TinyRx.ULongObservableProperty.#ctor(System.UInt64)
+  name: ULongObservableProperty(ulong)
+  href: api/TinyRx.ULongObservableProperty.html#TinyRx_ULongObservableProperty__ctor_System_UInt64_
+  commentId: M:TinyRx.ULongObservableProperty.#ctor(System.UInt64)
+  name.vb: New(ULong)
+  fullName: TinyRx.ULongObservableProperty.ULongObservableProperty(ulong)
+  fullName.vb: TinyRx.ULongObservableProperty.New(ULong)
+  nameWithType: ULongObservableProperty.ULongObservableProperty(ulong)
+  nameWithType.vb: ULongObservableProperty.New(ULong)
+- uid: TinyRx.ULongObservableProperty.#ctor*
+  name: ULongObservableProperty
+  href: api/TinyRx.ULongObservableProperty.html#TinyRx_ULongObservableProperty__ctor_
+  commentId: Overload:TinyRx.ULongObservableProperty.#ctor
+  isSpec: "True"
+  name.vb: New
+  fullName: TinyRx.ULongObservableProperty.ULongObservableProperty
+  fullName.vb: TinyRx.ULongObservableProperty.New
+  nameWithType: ULongObservableProperty.ULongObservableProperty
+  nameWithType.vb: ULongObservableProperty.New
+- uid: TinyRx.UShortObservableProperty
+  name: UShortObservableProperty
+  href: api/TinyRx.UShortObservableProperty.html
+  commentId: T:TinyRx.UShortObservableProperty
+  fullName: TinyRx.UShortObservableProperty
+  nameWithType: UShortObservableProperty
+- uid: TinyRx.UShortObservableProperty.#ctor
+  name: UShortObservableProperty()
+  href: api/TinyRx.UShortObservableProperty.html#TinyRx_UShortObservableProperty__ctor
+  commentId: M:TinyRx.UShortObservableProperty.#ctor
+  name.vb: New()
+  fullName: TinyRx.UShortObservableProperty.UShortObservableProperty()
+  fullName.vb: TinyRx.UShortObservableProperty.New()
+  nameWithType: UShortObservableProperty.UShortObservableProperty()
+  nameWithType.vb: UShortObservableProperty.New()
+- uid: TinyRx.UShortObservableProperty.#ctor(System.UInt16)
+  name: UShortObservableProperty(ushort)
+  href: api/TinyRx.UShortObservableProperty.html#TinyRx_UShortObservableProperty__ctor_System_UInt16_
+  commentId: M:TinyRx.UShortObservableProperty.#ctor(System.UInt16)
+  name.vb: New(UShort)
+  fullName: TinyRx.UShortObservableProperty.UShortObservableProperty(ushort)
+  fullName.vb: TinyRx.UShortObservableProperty.New(UShort)
+  nameWithType: UShortObservableProperty.UShortObservableProperty(ushort)
+  nameWithType.vb: UShortObservableProperty.New(UShort)
+- uid: TinyRx.UShortObservableProperty.#ctor*
+  name: UShortObservableProperty
+  href: api/TinyRx.UShortObservableProperty.html#TinyRx_UShortObservableProperty__ctor_
+  commentId: Overload:TinyRx.UShortObservableProperty.#ctor
+  isSpec: "True"
+  name.vb: New
+  fullName: TinyRx.UShortObservableProperty.UShortObservableProperty
+  fullName.vb: TinyRx.UShortObservableProperty.New
+  nameWithType: UShortObservableProperty.UShortObservableProperty
+  nameWithType.vb: UShortObservableProperty.New
