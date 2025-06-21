@@ -4,10 +4,15 @@
 		{
 			"src": [
 				{
-					"src": "..",
+					"src": "../Assets/TinyRx",
 					"files": [
-						"TinyRx.csproj"
-					]
+						"**/*.cs"
+					],
+					"exclude": [
+            			"**/bin/**",
+            			"**/obj/**", 
+            			"**/*.meta"
+          			]
 				}
 			],
 			"dest": "api"
