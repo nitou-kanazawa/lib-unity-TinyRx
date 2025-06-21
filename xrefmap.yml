@@ -1,3 +1,95 @@
 ### YamlMime:XRefMap
 sorted: true
-references: []
+references:
+- uid: TinyRx
+  name: TinyRx
+  href: api/TinyRx.html
+  commentId: N:TinyRx
+  fullName: TinyRx
+  nameWithType: TinyRx
+- uid: TinyRx.Disposable
+  name: Disposable
+  href: api/TinyRx.Disposable.html
+  commentId: T:TinyRx.Disposable
+  fullName: TinyRx.Disposable
+  nameWithType: Disposable
+- uid: TinyRx.Disposable.Create(System.Action)
+  name: Create(Action)
+  href: api/TinyRx.Disposable.html#TinyRx_Disposable_Create_System_Action_
+  commentId: M:TinyRx.Disposable.Create(System.Action)
+  fullName: TinyRx.Disposable.Create(System.Action)
+  nameWithType: Disposable.Create(Action)
+- uid: TinyRx.Disposable.Create*
+  name: Create
+  href: api/TinyRx.Disposable.html#TinyRx_Disposable_Create_
+  commentId: Overload:TinyRx.Disposable.Create
+  isSpec: "True"
+  fullName: TinyRx.Disposable.Create
+  nameWithType: Disposable.Create
+- uid: TinyRx.Disposable.CreateWithState*
+  name: CreateWithState
+  href: api/TinyRx.Disposable.html#TinyRx_Disposable_CreateWithState_
+  commentId: Overload:TinyRx.Disposable.CreateWithState
+  isSpec: "True"
+  fullName: TinyRx.Disposable.CreateWithState
+  nameWithType: Disposable.CreateWithState
+- uid: TinyRx.Disposable.CreateWithState``1(``0,System.Action{``0})
+  name: CreateWithState<TState>(TState, Action<TState>)
+  href: api/TinyRx.Disposable.html#TinyRx_Disposable_CreateWithState__1___0_System_Action___0__
+  commentId: M:TinyRx.Disposable.CreateWithState``1(``0,System.Action{``0})
+  name.vb: CreateWithState(Of TState)(TState, Action(Of TState))
+  fullName: TinyRx.Disposable.CreateWithState<TState>(TState, System.Action<TState>)
+  fullName.vb: TinyRx.Disposable.CreateWithState(Of TState)(TState, System.Action(Of TState))
+  nameWithType: Disposable.CreateWithState<TState>(TState, Action<TState>)
+  nameWithType.vb: Disposable.CreateWithState(Of TState)(TState, Action(Of TState))
+- uid: TinyRx.Disposable.Empty
+  name: Empty
+  href: api/TinyRx.Disposable.html#TinyRx_Disposable_Empty
+  commentId: F:TinyRx.Disposable.Empty
+  fullName: TinyRx.Disposable.Empty
+  nameWithType: Disposable.Empty
+- uid: TinyRx.SerialDisposable
+  name: SerialDisposable
+  href: api/TinyRx.SerialDisposable.html
+  commentId: T:TinyRx.SerialDisposable
+  fullName: TinyRx.SerialDisposable
+  nameWithType: SerialDisposable
+- uid: TinyRx.SerialDisposable.Disposable
+  name: Disposable
+  href: api/TinyRx.SerialDisposable.html#TinyRx_SerialDisposable_Disposable
+  commentId: P:TinyRx.SerialDisposable.Disposable
+  fullName: TinyRx.SerialDisposable.Disposable
+  nameWithType: SerialDisposable.Disposable
+- uid: TinyRx.SerialDisposable.Disposable*
+  name: Disposable
+  href: api/TinyRx.SerialDisposable.html#TinyRx_SerialDisposable_Disposable_
+  commentId: Overload:TinyRx.SerialDisposable.Disposable
+  isSpec: "True"
+  fullName: TinyRx.SerialDisposable.Disposable
+  nameWithType: SerialDisposable.Disposable
+- uid: TinyRx.SerialDisposable.Dispose
+  name: Dispose()
+  href: api/TinyRx.SerialDisposable.html#TinyRx_SerialDisposable_Dispose
+  commentId: M:TinyRx.SerialDisposable.Dispose
+  fullName: TinyRx.SerialDisposable.Dispose()
+  nameWithType: SerialDisposable.Dispose()
+- uid: TinyRx.SerialDisposable.Dispose*
+  name: Dispose
+  href: api/TinyRx.SerialDisposable.html#TinyRx_SerialDisposable_Dispose_
+  commentId: Overload:TinyRx.SerialDisposable.Dispose
+  isSpec: "True"
+  fullName: TinyRx.SerialDisposable.Dispose
+  nameWithType: SerialDisposable.Dispose
+- uid: TinyRx.SerialDisposable.IsDisposed
+  name: IsDisposed
+  href: api/TinyRx.SerialDisposable.html#TinyRx_SerialDisposable_IsDisposed
+  commentId: P:TinyRx.SerialDisposable.IsDisposed
+  fullName: TinyRx.SerialDisposable.IsDisposed
+  nameWithType: SerialDisposable.IsDisposed
+- uid: TinyRx.SerialDisposable.IsDisposed*
+  name: IsDisposed
+  href: api/TinyRx.SerialDisposable.html#TinyRx_SerialDisposable_IsDisposed_
+  commentId: Overload:TinyRx.SerialDisposable.IsDisposed
+  isSpec: "True"
+  fullName: TinyRx.SerialDisposable.IsDisposed
+  nameWithType: SerialDisposable.IsDisposed

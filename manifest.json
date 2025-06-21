@@ -11,6 +11,61 @@
       }
     },
     {
+      "type": "ManagedReference",
+      "source_relative_path": "api/TinyRx.Disposable.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/TinyRx.Disposable.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "TinyRx.Disposable",
+      "Summary": null
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/TinyRx.SerialDisposable.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/TinyRx.SerialDisposable.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "TinyRx.SerialDisposable",
+      "Summary": null
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/TinyRx.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/TinyRx.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "TinyRx",
+      "Summary": null
+    },
+    {
+      "type": "Toc",
+      "source_relative_path": "api/toc.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/toc.html"
+        },
+        ".json": {
+          "relative_path": "api/toc.json"
+        }
+      },
+      "version": ""
+    },
+    {
       "type": "Conceptual",
       "source_relative_path": "docs/getting-started.md",
       "output": {

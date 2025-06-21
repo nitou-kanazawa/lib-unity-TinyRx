@@ -1,4 +1,19 @@
 {
+  "api/TinyRx.Disposable.html": {
+    "href": "api/TinyRx.Disposable.html",
+    "title": "Class Disposable | TinyRx",
+    "summary": "Class Disposable Namespace TinyRx public static class Disposable Inheritance object Disposable Inherited Members object.Equals(object) object.Equals(object, object) object.GetHashCode() object.GetType() object.MemberwiseClone() object.ReferenceEquals(object, object) object.ToString() Fields Empty public static readonly IDisposable Empty Field Value IDisposable Methods Create(Action) public static IDisposable Create(Action disposeAction) Parameters disposeAction Action Returns IDisposable CreateWithState<TState>(TState, Action<TState>) public static IDisposable CreateWithState<TState>(TState state, Action<TState> disposeAction) Parameters state TState disposeAction Action<TState> Returns IDisposable Type Parameters TState"
+  },
+  "api/TinyRx.SerialDisposable.html": {
+    "href": "api/TinyRx.SerialDisposable.html",
+    "title": "Class SerialDisposable | TinyRx",
+    "summary": "Class SerialDisposable Namespace TinyRx public sealed class SerialDisposable : IDisposable Inheritance object SerialDisposable Implements IDisposable Inherited Members object.Equals(object) object.Equals(object, object) object.GetHashCode() object.GetType() object.ReferenceEquals(object, object) object.ToString() Properties Disposable public IDisposable Disposable { get; set; } Property Value IDisposable IsDisposed public bool IsDisposed { get; } Property Value bool Methods Dispose() Performs application-defined tasks associated with freeing, releasing, or resetting unmanaged resources. public void Dispose()"
+  },
+  "api/TinyRx.html": {
+    "href": "api/TinyRx.html",
+    "title": "Namespace TinyRx | TinyRx",
+    "summary": "Namespace TinyRx Classes Disposable SerialDisposable"
+  },
   "docs/getting-started.html": {
     "href": "docs/getting-started.html",
     "title": "Getting Started | TinyRx",
