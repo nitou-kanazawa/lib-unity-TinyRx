@@ -1,4 +1,14 @@
 {
+  "docs/getting-started.html": {
+    "href": "docs/getting-started.html",
+    "title": "Getting Started | TinyRx",
+    "summary": "Getting Started 導入方法，使用例"
+  },
+  "docs/introduction.html": {
+    "href": "docs/introduction.html",
+    "title": "Introduction | TinyRx",
+    "summary": "Introduction"
+  },
   "index.html": {
     "href": "index.html",
     "title": "This is the HOMEPAGE. | TinyRx",
