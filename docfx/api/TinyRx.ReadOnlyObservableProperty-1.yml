@@ -1,0 +1,820 @@
+### YamlMime:ManagedReference
+items:
+- uid: TinyRx.ReadOnlyObservableProperty`1
+  commentId: T:TinyRx.ReadOnlyObservableProperty`1
+  id: ReadOnlyObservableProperty`1
+  parent: TinyRx
+  children:
+  - TinyRx.ReadOnlyObservableProperty`1.#ctor(TinyRx.IObservableProperty{`0})
+  - TinyRx.ReadOnlyObservableProperty`1.Dispose
+  - TinyRx.ReadOnlyObservableProperty`1.Subscribe(System.IObserver{`0})
+  - TinyRx.ReadOnlyObservableProperty`1.Value
+  langs:
+  - csharp
+  - vb
+  name: ReadOnlyObservableProperty<T>
+  nameWithType: ReadOnlyObservableProperty<T>
+  fullName: TinyRx.ReadOnlyObservableProperty<T>
+  type: Class
+  source:
+    remote:
+      path: Assets/TinyRx/ObservableProperty/ReadOnlyObservableProperty.cs
+      branch: feature/add-docfx-documentation
+      repo: https://github.com/nitou-kanazawa/lib-dotnet-TinyRx.git
+    id: ReadOnlyObservableProperty
+    path: ../Assets/TinyRx/ObservableProperty/ReadOnlyObservableProperty.cs
+    startLine: 3
+  assemblies:
+  - TinyRx
+  namespace: TinyRx
+  syntax:
+    content: 'public class ReadOnlyObservableProperty<T> : IReadOnlyObservableProperty<T>, IObservable<T>, IDisposable'
+    typeParameters:
+    - id: T
+    content.vb: Public Class ReadOnlyObservableProperty(Of T) Implements IReadOnlyObservableProperty(Of T), IObservable(Of T), IDisposable
+  inheritance:
+  - System.Object
+  implements:
+  - TinyRx.IReadOnlyObservableProperty{{T}}
+  - System.IObservable{{T}}
+  - System.IDisposable
+  inheritedMembers:
+  - System.Object.Equals(System.Object)
+  - System.Object.Equals(System.Object,System.Object)
+  - System.Object.GetHashCode
+  - System.Object.GetType
+  - System.Object.MemberwiseClone
+  - System.Object.ReferenceEquals(System.Object,System.Object)
+  - System.Object.ToString
+  nameWithType.vb: ReadOnlyObservableProperty(Of T)
+  fullName.vb: TinyRx.ReadOnlyObservableProperty(Of T)
+  name.vb: ReadOnlyObservableProperty(Of T)
+- uid: TinyRx.ReadOnlyObservableProperty`1.Value
+  commentId: P:TinyRx.ReadOnlyObservableProperty`1.Value
+  id: Value
+  parent: TinyRx.ReadOnlyObservableProperty`1
+  langs:
+  - csharp
+  - vb
+  name: Value
+  nameWithType: ReadOnlyObservableProperty<T>.Value
+  fullName: TinyRx.ReadOnlyObservableProperty<T>.Value
+  type: Property
+  source:
+    remote:
+      path: Assets/TinyRx/ObservableProperty/ReadOnlyObservableProperty.cs
+      branch: feature/add-docfx-documentation
+      repo: https://github.com/nitou-kanazawa/lib-dotnet-TinyRx.git
+    id: Value
+    path: ../Assets/TinyRx/ObservableProperty/ReadOnlyObservableProperty.cs
+    startLine: 8
+  assemblies:
+  - TinyRx
+  namespace: TinyRx
+  summary: Current value.
+  example: []
+  syntax:
+    content: public T Value { get; }
+    parameters: []
+    return:
+      type: '{T}'
+    content.vb: Public ReadOnly Property Value As T
+  overload: TinyRx.ReadOnlyObservableProperty`1.Value*
+  implements:
+  - TinyRx.IReadOnlyObservableProperty{{T}}.Value
+  nameWithType.vb: ReadOnlyObservableProperty(Of T).Value
+  fullName.vb: TinyRx.ReadOnlyObservableProperty(Of T).Value
+- uid: TinyRx.ReadOnlyObservableProperty`1.#ctor(TinyRx.IObservableProperty{`0})
+  commentId: M:TinyRx.ReadOnlyObservableProperty`1.#ctor(TinyRx.IObservableProperty{`0})
+  id: '#ctor(TinyRx.IObservableProperty{`0})'
+  parent: TinyRx.ReadOnlyObservableProperty`1
+  langs:
+  - csharp
+  - vb
+  name: ReadOnlyObservableProperty(IObservableProperty<T>)
+  nameWithType: ReadOnlyObservableProperty<T>.ReadOnlyObservableProperty(IObservableProperty<T>)
+  fullName: TinyRx.ReadOnlyObservableProperty<T>.ReadOnlyObservableProperty(TinyRx.IObservableProperty<T>)
+  type: Constructor
+  source:
+    remote:
+      path: Assets/TinyRx/ObservableProperty/ReadOnlyObservableProperty.cs
+      branch: feature/add-docfx-documentation
+      repo: https://github.com/nitou-kanazawa/lib-dotnet-TinyRx.git
+    id: .ctor
+    path: ../Assets/TinyRx/ObservableProperty/ReadOnlyObservableProperty.cs
+    startLine: 10
+  assemblies:
+  - TinyRx
+  namespace: TinyRx
+  syntax:
+    content: public ReadOnlyObservableProperty(IObservableProperty<T> source)
+    parameters:
+    - id: source
+      type: TinyRx.IObservableProperty{{T}}
+    content.vb: Public Sub New(source As IObservableProperty(Of T))
+  overload: TinyRx.ReadOnlyObservableProperty`1.#ctor*
+  nameWithType.vb: ReadOnlyObservableProperty(Of T).New(IObservableProperty(Of T))
+  fullName.vb: TinyRx.ReadOnlyObservableProperty(Of T).New(TinyRx.IObservableProperty(Of T))
+  name.vb: New(IObservableProperty(Of T))
+- uid: TinyRx.ReadOnlyObservableProperty`1.Subscribe(System.IObserver{`0})
+  commentId: M:TinyRx.ReadOnlyObservableProperty`1.Subscribe(System.IObserver{`0})
+  id: Subscribe(System.IObserver{`0})
+  parent: TinyRx.ReadOnlyObservableProperty`1
+  langs:
+  - csharp
+  - vb
+  name: Subscribe(IObserver<T>)
+  nameWithType: ReadOnlyObservableProperty<T>.Subscribe(IObserver<T>)
+  fullName: TinyRx.ReadOnlyObservableProperty<T>.Subscribe(System.IObserver<T>)
+  type: Method
+  source:
+    remote:
+      path: Assets/TinyRx/ObservableProperty/ReadOnlyObservableProperty.cs
+      branch: feature/add-docfx-documentation
+      repo: https://github.com/nitou-kanazawa/lib-dotnet-TinyRx.git
+    id: Subscribe
+    path: ../Assets/TinyRx/ObservableProperty/ReadOnlyObservableProperty.cs
+    startLine: 14
+  assemblies:
+  - TinyRx
+  namespace: TinyRx
+  example: []
+  syntax:
+    content: public IDisposable Subscribe(IObserver<T> observer)
+    parameters:
+    - id: observer
+      type: System.IObserver{{T}}
+    return:
+      type: System.IDisposable
+    content.vb: Public Function Subscribe(observer As IObserver(Of T)) As IDisposable
+  overload: TinyRx.ReadOnlyObservableProperty`1.Subscribe*
+  implements:
+  - System.IObservable{{T}}.Subscribe(System.IObserver{{T}})
+  nameWithType.vb: ReadOnlyObservableProperty(Of T).Subscribe(IObserver(Of T))
+  fullName.vb: TinyRx.ReadOnlyObservableProperty(Of T).Subscribe(System.IObserver(Of T))
+  name.vb: Subscribe(IObserver(Of T))
+- uid: TinyRx.ReadOnlyObservableProperty`1.Dispose
+  commentId: M:TinyRx.ReadOnlyObservableProperty`1.Dispose
+  id: Dispose
+  parent: TinyRx.ReadOnlyObservableProperty`1
+  langs:
+  - csharp
+  - vb
+  name: Dispose()
+  nameWithType: ReadOnlyObservableProperty<T>.Dispose()
+  fullName: TinyRx.ReadOnlyObservableProperty<T>.Dispose()
+  type: Method
+  source:
+    remote:
+      path: Assets/TinyRx/ObservableProperty/ReadOnlyObservableProperty.cs
+      branch: feature/add-docfx-documentation
+      repo: https://github.com/nitou-kanazawa/lib-dotnet-TinyRx.git
+    id: Dispose
+    path: ../Assets/TinyRx/ObservableProperty/ReadOnlyObservableProperty.cs
+    startLine: 21
+  assemblies:
+  - TinyRx
+  namespace: TinyRx
+  example: []
+  syntax:
+    content: public void Dispose()
+    content.vb: Public Sub Dispose()
+  overload: TinyRx.ReadOnlyObservableProperty`1.Dispose*
+  implements:
+  - System.IDisposable.Dispose
+  nameWithType.vb: ReadOnlyObservableProperty(Of T).Dispose()
+  fullName.vb: TinyRx.ReadOnlyObservableProperty(Of T).Dispose()
+references:
+- uid: TinyRx
+  commentId: N:TinyRx
+  href: TinyRx.html
+  name: TinyRx
+  nameWithType: TinyRx
+  fullName: TinyRx
+- uid: System.Object
+  commentId: T:System.Object
+  parent: System
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object
+  name: object
+  nameWithType: object
+  fullName: object
+  nameWithType.vb: Object
+  fullName.vb: Object
+  name.vb: Object
+- uid: TinyRx.IReadOnlyObservableProperty{{T}}
+  commentId: T:TinyRx.IReadOnlyObservableProperty{`0}
+  parent: TinyRx
+  definition: TinyRx.IReadOnlyObservableProperty`1
+  href: TinyRx.IReadOnlyObservableProperty-1.html
+  name: IReadOnlyObservableProperty<T>
+  nameWithType: IReadOnlyObservableProperty<T>
+  fullName: TinyRx.IReadOnlyObservableProperty<T>
+  nameWithType.vb: IReadOnlyObservableProperty(Of T)
+  fullName.vb: TinyRx.IReadOnlyObservableProperty(Of T)
+  name.vb: IReadOnlyObservableProperty(Of T)
+  spec.csharp:
+  - uid: TinyRx.IReadOnlyObservableProperty`1
+    name: IReadOnlyObservableProperty
+    href: TinyRx.IReadOnlyObservableProperty-1.html
+  - name: <
+  - name: T
+  - name: '>'
+  spec.vb:
+  - uid: TinyRx.IReadOnlyObservableProperty`1
+    name: IReadOnlyObservableProperty
+    href: TinyRx.IReadOnlyObservableProperty-1.html
+  - name: (
+  - name: Of
+  - name: " "
+  - name: T
+  - name: )
+- uid: System.IObservable{{T}}
+  commentId: T:System.IObservable{`0}
+  parent: System
+  definition: System.IObservable`1
+  href: https://learn.microsoft.com/dotnet/api/system.iobservable-1
+  name: IObservable<T>
+  nameWithType: IObservable<T>
+  fullName: System.IObservable<T>
+  nameWithType.vb: IObservable(Of T)
+  fullName.vb: System.IObservable(Of T)
+  name.vb: IObservable(Of T)
+  spec.csharp:
+  - uid: System.IObservable`1
+    name: IObservable
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.iobservable-1
+  - name: <
+  - name: T
+  - name: '>'
+  spec.vb:
+  - uid: System.IObservable`1
+    name: IObservable
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.iobservable-1
+  - name: (
+  - name: Of
+  - name: " "
+  - name: T
+  - name: )
+- uid: System.IDisposable
+  commentId: T:System.IDisposable
+  parent: System
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.idisposable
+  name: IDisposable
+  nameWithType: IDisposable
+  fullName: System.IDisposable
+- uid: System.Object.Equals(System.Object)
+  commentId: M:System.Object.Equals(System.Object)
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object)
+  name: Equals(object)
+  nameWithType: object.Equals(object)
+  fullName: object.Equals(object)
+  nameWithType.vb: Object.Equals(Object)
+  fullName.vb: Object.Equals(Object)
+  name.vb: Equals(Object)
+  spec.csharp:
+  - uid: System.Object.Equals(System.Object)
+    name: Equals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object)
+  - name: (
+  - uid: System.Object
+    name: object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+  spec.vb:
+  - uid: System.Object.Equals(System.Object)
+    name: Equals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object)
+  - name: (
+  - uid: System.Object
+    name: Object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+- uid: System.Object.Equals(System.Object,System.Object)
+  commentId: M:System.Object.Equals(System.Object,System.Object)
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object-system-object)
+  name: Equals(object, object)
+  nameWithType: object.Equals(object, object)
+  fullName: object.Equals(object, object)
+  nameWithType.vb: Object.Equals(Object, Object)
+  fullName.vb: Object.Equals(Object, Object)
+  name.vb: Equals(Object, Object)
+  spec.csharp:
+  - uid: System.Object.Equals(System.Object,System.Object)
+    name: Equals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object-system-object)
+  - name: (
+  - uid: System.Object
+    name: object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: ','
+  - name: " "
+  - uid: System.Object
+    name: object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+  spec.vb:
+  - uid: System.Object.Equals(System.Object,System.Object)
+    name: Equals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object-system-object)
+  - name: (
+  - uid: System.Object
+    name: Object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: ','
+  - name: " "
+  - uid: System.Object
+    name: Object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+- uid: System.Object.GetHashCode
+  commentId: M:System.Object.GetHashCode
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.gethashcode
+  name: GetHashCode()
+  nameWithType: object.GetHashCode()
+  fullName: object.GetHashCode()
+  nameWithType.vb: Object.GetHashCode()
+  fullName.vb: Object.GetHashCode()
+  spec.csharp:
+  - uid: System.Object.GetHashCode
+    name: GetHashCode
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.gethashcode
+  - name: (
+  - name: )
+  spec.vb:
+  - uid: System.Object.GetHashCode
+    name: GetHashCode
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.gethashcode
+  - name: (
+  - name: )
+- uid: System.Object.GetType
+  commentId: M:System.Object.GetType
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.gettype
+  name: GetType()
+  nameWithType: object.GetType()
+  fullName: object.GetType()
+  nameWithType.vb: Object.GetType()
+  fullName.vb: Object.GetType()
+  spec.csharp:
+  - uid: System.Object.GetType
+    name: GetType
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.gettype
+  - name: (
+  - name: )
+  spec.vb:
+  - uid: System.Object.GetType
+    name: GetType
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.gettype
+  - name: (
+  - name: )
+- uid: System.Object.MemberwiseClone
+  commentId: M:System.Object.MemberwiseClone
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.memberwiseclone
+  name: MemberwiseClone()
+  nameWithType: object.MemberwiseClone()
+  fullName: object.MemberwiseClone()
+  nameWithType.vb: Object.MemberwiseClone()
+  fullName.vb: Object.MemberwiseClone()
+  spec.csharp:
+  - uid: System.Object.MemberwiseClone
+    name: MemberwiseClone
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.memberwiseclone
+  - name: (
+  - name: )
+  spec.vb:
+  - uid: System.Object.MemberwiseClone
+    name: MemberwiseClone
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.memberwiseclone
+  - name: (
+  - name: )
+- uid: System.Object.ReferenceEquals(System.Object,System.Object)
+  commentId: M:System.Object.ReferenceEquals(System.Object,System.Object)
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.referenceequals
+  name: ReferenceEquals(object, object)
+  nameWithType: object.ReferenceEquals(object, object)
+  fullName: object.ReferenceEquals(object, object)
+  nameWithType.vb: Object.ReferenceEquals(Object, Object)
+  fullName.vb: Object.ReferenceEquals(Object, Object)
+  name.vb: ReferenceEquals(Object, Object)
+  spec.csharp:
+  - uid: System.Object.ReferenceEquals(System.Object,System.Object)
+    name: ReferenceEquals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.referenceequals
+  - name: (
+  - uid: System.Object
+    name: object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: ','
+  - name: " "
+  - uid: System.Object
+    name: object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+  spec.vb:
+  - uid: System.Object.ReferenceEquals(System.Object,System.Object)
+    name: ReferenceEquals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.referenceequals
+  - name: (
+  - uid: System.Object
+    name: Object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: ','
+  - name: " "
+  - uid: System.Object
+    name: Object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+- uid: System.Object.ToString
+  commentId: M:System.Object.ToString
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.tostring
+  name: ToString()
+  nameWithType: object.ToString()
+  fullName: object.ToString()
+  nameWithType.vb: Object.ToString()
+  fullName.vb: Object.ToString()
+  spec.csharp:
+  - uid: System.Object.ToString
+    name: ToString
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.tostring
+  - name: (
+  - name: )
+  spec.vb:
+  - uid: System.Object.ToString
+    name: ToString
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.tostring
+  - name: (
+  - name: )
+- uid: System
+  commentId: N:System
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system
+  name: System
+  nameWithType: System
+  fullName: System
+- uid: TinyRx.IReadOnlyObservableProperty`1
+  commentId: T:TinyRx.IReadOnlyObservableProperty`1
+  href: TinyRx.IReadOnlyObservableProperty-1.html
+  name: IReadOnlyObservableProperty<T>
+  nameWithType: IReadOnlyObservableProperty<T>
+  fullName: TinyRx.IReadOnlyObservableProperty<T>
+  nameWithType.vb: IReadOnlyObservableProperty(Of T)
+  fullName.vb: TinyRx.IReadOnlyObservableProperty(Of T)
+  name.vb: IReadOnlyObservableProperty(Of T)
+  spec.csharp:
+  - uid: TinyRx.IReadOnlyObservableProperty`1
+    name: IReadOnlyObservableProperty
+    href: TinyRx.IReadOnlyObservableProperty-1.html
+  - name: <
+  - name: T
+  - name: '>'
+  spec.vb:
+  - uid: TinyRx.IReadOnlyObservableProperty`1
+    name: IReadOnlyObservableProperty
+    href: TinyRx.IReadOnlyObservableProperty-1.html
+  - name: (
+  - name: Of
+  - name: " "
+  - name: T
+  - name: )
+- uid: System.IObservable`1
+  commentId: T:System.IObservable`1
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.iobservable-1
+  name: IObservable<T>
+  nameWithType: IObservable<T>
+  fullName: System.IObservable<T>
+  nameWithType.vb: IObservable(Of T)
+  fullName.vb: System.IObservable(Of T)
+  name.vb: IObservable(Of T)
+  spec.csharp:
+  - uid: System.IObservable`1
+    name: IObservable
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.iobservable-1
+  - name: <
+  - name: T
+  - name: '>'
+  spec.vb:
+  - uid: System.IObservable`1
+    name: IObservable
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.iobservable-1
+  - name: (
+  - name: Of
+  - name: " "
+  - name: T
+  - name: )
+- uid: TinyRx.ReadOnlyObservableProperty`1.Value*
+  commentId: Overload:TinyRx.ReadOnlyObservableProperty`1.Value
+  href: TinyRx.ReadOnlyObservableProperty-1.html#TinyRx_ReadOnlyObservableProperty_1_Value
+  name: Value
+  nameWithType: ReadOnlyObservableProperty<T>.Value
+  fullName: TinyRx.ReadOnlyObservableProperty<T>.Value
+  nameWithType.vb: ReadOnlyObservableProperty(Of T).Value
+  fullName.vb: TinyRx.ReadOnlyObservableProperty(Of T).Value
+- uid: TinyRx.IReadOnlyObservableProperty{{T}}.Value
+  commentId: P:TinyRx.IReadOnlyObservableProperty{`0}.Value
+  parent: TinyRx.IReadOnlyObservableProperty{{T}}
+  definition: TinyRx.IReadOnlyObservableProperty`1.Value
+  href: TinyRx.IReadOnlyObservableProperty-1.html#TinyRx_IReadOnlyObservableProperty_1_Value
+  name: Value
+  nameWithType: IReadOnlyObservableProperty<T>.Value
+  fullName: TinyRx.IReadOnlyObservableProperty<T>.Value
+  nameWithType.vb: IReadOnlyObservableProperty(Of T).Value
+  fullName.vb: TinyRx.IReadOnlyObservableProperty(Of T).Value
+- uid: '{T}'
+  commentId: '!:T'
+  definition: T
+  name: T
+  nameWithType: T
+  fullName: T
+- uid: TinyRx.IReadOnlyObservableProperty`1.Value
+  commentId: P:TinyRx.IReadOnlyObservableProperty`1.Value
+  href: TinyRx.IReadOnlyObservableProperty-1.html#TinyRx_IReadOnlyObservableProperty_1_Value
+  name: Value
+  nameWithType: IReadOnlyObservableProperty<T>.Value
+  fullName: TinyRx.IReadOnlyObservableProperty<T>.Value
+  nameWithType.vb: IReadOnlyObservableProperty(Of T).Value
+  fullName.vb: TinyRx.IReadOnlyObservableProperty(Of T).Value
+- uid: T
+  name: T
+  nameWithType: T
+  fullName: T
+- uid: TinyRx.ReadOnlyObservableProperty`1.#ctor*
+  commentId: Overload:TinyRx.ReadOnlyObservableProperty`1.#ctor
+  href: TinyRx.ReadOnlyObservableProperty-1.html#TinyRx_ReadOnlyObservableProperty_1__ctor_TinyRx_IObservableProperty__0__
+  name: ReadOnlyObservableProperty
+  nameWithType: ReadOnlyObservableProperty<T>.ReadOnlyObservableProperty
+  fullName: TinyRx.ReadOnlyObservableProperty<T>.ReadOnlyObservableProperty
+  nameWithType.vb: ReadOnlyObservableProperty(Of T).New
+  fullName.vb: TinyRx.ReadOnlyObservableProperty(Of T).New
+  name.vb: New
+- uid: TinyRx.IObservableProperty{{T}}
+  commentId: T:TinyRx.IObservableProperty{`0}
+  parent: TinyRx
+  definition: TinyRx.IObservableProperty`1
+  href: TinyRx.IObservableProperty-1.html
+  name: IObservableProperty<T>
+  nameWithType: IObservableProperty<T>
+  fullName: TinyRx.IObservableProperty<T>
+  nameWithType.vb: IObservableProperty(Of T)
+  fullName.vb: TinyRx.IObservableProperty(Of T)
+  name.vb: IObservableProperty(Of T)
+  spec.csharp:
+  - uid: TinyRx.IObservableProperty`1
+    name: IObservableProperty
+    href: TinyRx.IObservableProperty-1.html
+  - name: <
+  - name: T
+  - name: '>'
+  spec.vb:
+  - uid: TinyRx.IObservableProperty`1
+    name: IObservableProperty
+    href: TinyRx.IObservableProperty-1.html
+  - name: (
+  - name: Of
+  - name: " "
+  - name: T
+  - name: )
+- uid: TinyRx.IObservableProperty`1
+  commentId: T:TinyRx.IObservableProperty`1
+  href: TinyRx.IObservableProperty-1.html
+  name: IObservableProperty<T>
+  nameWithType: IObservableProperty<T>
+  fullName: TinyRx.IObservableProperty<T>
+  nameWithType.vb: IObservableProperty(Of T)
+  fullName.vb: TinyRx.IObservableProperty(Of T)
+  name.vb: IObservableProperty(Of T)
+  spec.csharp:
+  - uid: TinyRx.IObservableProperty`1
+    name: IObservableProperty
+    href: TinyRx.IObservableProperty-1.html
+  - name: <
+  - name: T
+  - name: '>'
+  spec.vb:
+  - uid: TinyRx.IObservableProperty`1
+    name: IObservableProperty
+    href: TinyRx.IObservableProperty-1.html
+  - name: (
+  - name: Of
+  - name: " "
+  - name: T
+  - name: )
+- uid: TinyRx.ReadOnlyObservableProperty`1.Subscribe*
+  commentId: Overload:TinyRx.ReadOnlyObservableProperty`1.Subscribe
+  href: TinyRx.ReadOnlyObservableProperty-1.html#TinyRx_ReadOnlyObservableProperty_1_Subscribe_System_IObserver__0__
+  name: Subscribe
+  nameWithType: ReadOnlyObservableProperty<T>.Subscribe
+  fullName: TinyRx.ReadOnlyObservableProperty<T>.Subscribe
+  nameWithType.vb: ReadOnlyObservableProperty(Of T).Subscribe
+  fullName.vb: TinyRx.ReadOnlyObservableProperty(Of T).Subscribe
+- uid: System.IObservable{{T}}.Subscribe(System.IObserver{{T}})
+  commentId: M:System.IObservable{`0}.Subscribe(System.IObserver{`0})
+  parent: System.IObservable{{T}}
+  definition: System.IObservable`1.Subscribe(System.IObserver{`0})
+  href: https://learn.microsoft.com/dotnet/api/system.iobservable-1.subscribe
+  name: Subscribe(IObserver<T>)
+  nameWithType: IObservable<T>.Subscribe(IObserver<T>)
+  fullName: System.IObservable<T>.Subscribe(System.IObserver<T>)
+  nameWithType.vb: IObservable(Of T).Subscribe(IObserver(Of T))
+  fullName.vb: System.IObservable(Of T).Subscribe(System.IObserver(Of T))
+  name.vb: Subscribe(IObserver(Of T))
+  spec.csharp:
+  - uid: System.IObservable{`0}.Subscribe(System.IObserver{`0})
+    name: Subscribe
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.iobservable-1.subscribe
+  - name: (
+  - uid: System.IObserver`1
+    name: IObserver
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.iobserver-1
+  - name: <
+  - name: T
+  - name: '>'
+  - name: )
+  spec.vb:
+  - uid: System.IObservable{`0}.Subscribe(System.IObserver{`0})
+    name: Subscribe
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.iobservable-1.subscribe
+  - name: (
+  - uid: System.IObserver`1
+    name: IObserver
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.iobserver-1
+  - name: (
+  - name: Of
+  - name: " "
+  - name: T
+  - name: )
+  - name: )
+- uid: System.IObserver{{T}}
+  commentId: T:System.IObserver{`0}
+  parent: System
+  definition: System.IObserver`1
+  href: https://learn.microsoft.com/dotnet/api/system.iobserver-1
+  name: IObserver<T>
+  nameWithType: IObserver<T>
+  fullName: System.IObserver<T>
+  nameWithType.vb: IObserver(Of T)
+  fullName.vb: System.IObserver(Of T)
+  name.vb: IObserver(Of T)
+  spec.csharp:
+  - uid: System.IObserver`1
+    name: IObserver
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.iobserver-1
+  - name: <
+  - name: T
+  - name: '>'
+  spec.vb:
+  - uid: System.IObserver`1
+    name: IObserver
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.iobserver-1
+  - name: (
+  - name: Of
+  - name: " "
+  - name: T
+  - name: )
+- uid: System.IObservable`1.Subscribe(System.IObserver{`0})
+  commentId: M:System.IObservable`1.Subscribe(System.IObserver{`0})
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.iobservable-1.subscribe
+  name: Subscribe(IObserver<T>)
+  nameWithType: IObservable<T>.Subscribe(IObserver<T>)
+  fullName: System.IObservable<T>.Subscribe(System.IObserver<T>)
+  nameWithType.vb: IObservable(Of T).Subscribe(IObserver(Of T))
+  fullName.vb: System.IObservable(Of T).Subscribe(System.IObserver(Of T))
+  name.vb: Subscribe(IObserver(Of T))
+  spec.csharp:
+  - uid: System.IObservable`1.Subscribe(System.IObserver{`0})
+    name: Subscribe
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.iobservable-1.subscribe
+  - name: (
+  - uid: System.IObserver`1
+    name: IObserver
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.iobserver-1
+  - name: <
+  - name: T
+  - name: '>'
+  - name: )
+  spec.vb:
+  - uid: System.IObservable`1.Subscribe(System.IObserver{`0})
+    name: Subscribe
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.iobservable-1.subscribe
+  - name: (
+  - uid: System.IObserver`1
+    name: IObserver
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.iobserver-1
+  - name: (
+  - name: Of
+  - name: " "
+  - name: T
+  - name: )
+  - name: )
+- uid: System.IObserver`1
+  commentId: T:System.IObserver`1
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.iobserver-1
+  name: IObserver<T>
+  nameWithType: IObserver<T>
+  fullName: System.IObserver<T>
+  nameWithType.vb: IObserver(Of T)
+  fullName.vb: System.IObserver(Of T)
+  name.vb: IObserver(Of T)
+  spec.csharp:
+  - uid: System.IObserver`1
+    name: IObserver
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.iobserver-1
+  - name: <
+  - name: T
+  - name: '>'
+  spec.vb:
+  - uid: System.IObserver`1
+    name: IObserver
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.iobserver-1
+  - name: (
+  - name: Of
+  - name: " "
+  - name: T
+  - name: )
+- uid: TinyRx.ReadOnlyObservableProperty`1.Dispose*
+  commentId: Overload:TinyRx.ReadOnlyObservableProperty`1.Dispose
+  href: TinyRx.ReadOnlyObservableProperty-1.html#TinyRx_ReadOnlyObservableProperty_1_Dispose
+  name: Dispose
+  nameWithType: ReadOnlyObservableProperty<T>.Dispose
+  fullName: TinyRx.ReadOnlyObservableProperty<T>.Dispose
+  nameWithType.vb: ReadOnlyObservableProperty(Of T).Dispose
+  fullName.vb: TinyRx.ReadOnlyObservableProperty(Of T).Dispose
+- uid: System.IDisposable.Dispose
+  commentId: M:System.IDisposable.Dispose
+  parent: System.IDisposable
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.idisposable.dispose
+  name: Dispose()
+  nameWithType: IDisposable.Dispose()
+  fullName: System.IDisposable.Dispose()
+  spec.csharp:
+  - uid: System.IDisposable.Dispose
+    name: Dispose
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.idisposable.dispose
+  - name: (
+  - name: )
+  spec.vb:
+  - uid: System.IDisposable.Dispose
+    name: Dispose
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.idisposable.dispose
+  - name: (
+  - name: )
