@@ -5,6 +5,17 @@ on:
   push:
     branches: ["main"]
 
+# GitHub Pagesにデプロイするための権限設定
+permissions:
+  contents: read
+  pages: write
+  id-token: write
+
+# 同時実行制御（GitHub Pagesデプロイの重複を防ぐ）
+concurrency:
+  group: "pages"
+  cancel-in-progress: false
+
 jobs:
   build:
     runs-on: ubuntu-latest
@@ -24,10 +35,10 @@ jobs:
           dotnet tool install -g docfx
           docfx docfx/docfx.json
 
-      - name: Upload artifacts
-        uses: actions/upload-artifact@v4
+      # GitHub Pages用のアーティファクトとしてアップロード
+      - name: Upload Pages artifact
+        uses: actions/upload-pages-artifact@v3
         with:
-          name: dotnet_docs
           path: docfx/_site
 
   deploy:
@@ -41,12 +52,7 @@ jobs:
       pages: write
       id-token: write
     steps:
-      - name: Download artifacts
-        uses: actions/download-artifact@v4
-        with:
-          name: dotnet_docs
-          path: _site
-
+      # GitHub Pages用のデプロイアクション
       - name: Deploy to GitHub Pages
         uses: actions/deploy-pages@v4
         id: deployment
