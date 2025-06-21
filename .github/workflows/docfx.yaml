@@ -12,7 +12,7 @@ on:
 
 # GitHub Pagesにデプロイするための権限設定
 permissions:
-  contents: read
+  contents: write  # gh-pagesブランチへの書き込み権限
   pages: write
   id-token: write
 
