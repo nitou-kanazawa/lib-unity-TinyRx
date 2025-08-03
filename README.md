@@ -1,6 +1,6 @@
 # TinyRx
 
-A minimal implementation of Rx for Unity and .NET applications.
+A minimal implementation of Rx for Unity.
 
 ## Overview
 
